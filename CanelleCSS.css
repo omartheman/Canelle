@@ -1,3 +1,8 @@
+
+img, embed, object, video {
+    max-width: 100%;
+}
+
 /*COLORS!
 #ebc034 - YELLOW
 #e3397a - PINK
@@ -55,6 +60,12 @@ input {
 }
 p {
   text-align: justify;
+}
+#canelle-cover-homepage-pic {
+  display: block;
+  height: auto;
+    width: 50em;
+  margin: auto;
 }
 .create-account {
   color: black;
@@ -217,8 +228,14 @@ p {
   flex-wrap: wrap;
   justify-content: space-around;
 }
+#homepage-intro-text {
+  margin: 2em;
+}
 #homepageTop {
   width: 100%;
+}
+#homepage-title-main-content {
+
 }
 #homeFeatured {
   background-color: #e3397a;
