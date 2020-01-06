@@ -23,7 +23,7 @@ audio {
   width: 200px;
 }
 body {
-  background-color: #451085;
+  background-color: #32997e;
   margin: 0;
 }
 button {
@@ -234,7 +234,10 @@ p {
   width: 100%;
 }
 #homepage-title-main-content {
-
+  font-family: 'Cedarville Cursive', cursive;
+  font-size: 3em;
+  text-align: center;
+  margin: 0.4em;
 }
 #homeFeatured {
   background-color: #e3397a;
@@ -344,8 +347,8 @@ p {
   .home-pic-div:hover .home-pic-title {
   visibility: visible;
   }
-#h1-RowdyArtCom {
-  color: purple;
+#h1-canelle {
+  color: #31bac4;
 }
 #h1-RowdyArtCom-lit {
   color: purple;
@@ -476,7 +479,7 @@ p {
   padding: 0px;
 }
 #navbar-2 {
-  background-color: #f07fe6; 
+  background-color: #896b99; 
   display: flex;
     align-items: center;
     justify-content: space-between;
@@ -598,7 +601,7 @@ p {
   font-size: 1.7em;
 }
 #sidebar-2 {
-  background-color: #e3397a;
+  background-color: #896b99;
   border-right: 3px solid #ebc034;
   height: 100%;
     width: var(--sidebar-width);
@@ -611,6 +614,7 @@ p {
   z-index: 100;
 }
 #sidebar-links a {
+  color: #31bac4;
   display: block;
   padding: 1em 0 0 0.8em;
   font-size: 1.7em;
@@ -662,32 +666,6 @@ p {
   padding: 5px;
   text-align: center;
   width: 65%;
-}
-#wolfLogoHomepage {
-  border-color: #ebc034;
-  border-style: solid;
-  border-width: 3px;
-  /*'display: inline-block' doesn't help*/
-  padding: 5px;
-  /*'padding' creates space between image and border*/
-  width: 8em;
-  /*Using percentage % value for width created huge blank space when wolfLogo_header was floated*/
-}
-#wolfLogo_header {
-  float: right;
-  margin: 0 1em 1em 1em;
-}
-#wolfLogoInitialPage {
-  display: block;
-  margin: auto;
-  width: 30%;
-}
-#wolfLogoMissionStatement {
-  border-color: #ebc034;
-  border-style: solid;
-  border-width: 3px;
-  padding: 5px;
-  width: 15%;
 }
   /*The following @media work for laptop downsizing width*/
 @media (max-width: 1280px) {

@@ -1,6 +1,8 @@
 #4c3094 purple
-#32997e dark teal
+#32997e dark teal for background
 #789430 dark green 
-#943078
+#943078 pale purple for sidebar/navbar
 
 #896b99 pale purple
+
+#31bac4 Turquoise for Text navbar sidebar
