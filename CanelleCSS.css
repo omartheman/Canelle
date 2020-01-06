@@ -226,7 +226,6 @@ p {
 #homepage-content-div {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
 }
 #homepage-intro-text {
   margin: 2em;
