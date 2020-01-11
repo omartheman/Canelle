@@ -16,6 +16,9 @@ const strNavSideBar = String.raw`
 
 <div id="sidebar-2">
 	<div id="sidebar-links">
+		<a href="index.html">
+			Homepage
+		</a>
 		<a href="welcome.html">
 			Welcome
 		</a>

@@ -12,7 +12,7 @@ img, embed, object, video {
 :root {
   --navbar-height: 3.9rem;
   --navbar-height-mobile: 3.2rem;
-  --sidebar-width: 10rem;
+  --sidebar-width: 11rem;
   --article-border-radius: 1em;
 }
 a {
@@ -628,7 +628,7 @@ p {
 #sidebar-links a {
   color: #31bac4;
   display: block;
-  padding: 1em 0 0 0.8em;
+  padding: 1em 0 0 0.6em;
   font-size: 1.7em;
 }
 #sidebar-links-lit-page {
