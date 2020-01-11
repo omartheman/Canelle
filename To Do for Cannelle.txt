@@ -1,0 +1,8 @@
+
+To do for Cannelle
+
+1. Fix sidebar spacing of words
+
+2. Add sidebar/navbar to javascript 
+
+3. Check mobile compatibility

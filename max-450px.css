@@ -271,3 +271,14 @@ body {
     width: 0px;
   visibility: hidden;
 }
+#welcome-story-pic {
+  border-radius: 0px;
+  display: block;
+  margin: auto;
+  height: auto;
+  width: 100%;
+}
+#welcome-story-figure {
+  margin: 0;
+  width: 100%;
+}
