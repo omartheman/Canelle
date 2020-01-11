@@ -22,7 +22,7 @@ const strNavSideBar = String.raw`
 		<a href="welcome.html">
 			Welcome
 		</a>
-		<a href="rowdy-art-literature-rebuild.html">
+		<a href="reading-video.html">
 			Reading Video
 		</a>
 		<a href="Rowdy_Artworks.html">

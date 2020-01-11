@@ -65,7 +65,7 @@ p {
   display: block;
   height: auto;
     width: 50em;
-  margin: auto;
+  margin: auto auto 10em auto;
 }
 .create-account {
   color: black;
@@ -571,6 +571,24 @@ p {
 #or {
   margin-left: 10px;
 }
+#paypal-cannelle {
+  display: block;
+  width: 10em;
+  margin: auto;
+}
+
+#paypal-donate-button{
+  display: block;
+  margin: auto;
+}
+#paypal-donate-div {
+  display: flex;
+  margin-top: 2em;
+  margin-bottom: 10em;
+}
+#paypal-donate-and-cannelle-div {
+  margin: auto;
+}
 .photoIndexGridCell {
   color: white;
   font-size: 1.1rem;
@@ -670,6 +688,12 @@ p {
 }
 #user_pass_button_id {
   display: inline-block;
+}
+#video-cannelle-3-min-div {
+  display: flex;
+}
+#video-cannelle-3-min-div iframe {
+  margin: auto;
 }
 .welcomeText {
   border: 0px solid #ebc034;
