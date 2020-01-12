@@ -868,10 +868,13 @@ p {
 #2de0ce turquoise (text) 
 */
 
+/*#c153e0 new purple for sidebar Omar
+#5ce4ff new purple for text Omar*/
+
 :root {
   --site-background-color: #5422d4;
-  --sidebar-background-color: #c381db;
-  --sidebar-links-color: #2de0ce;
+  --sidebar-background-color: #c153e0;
+  --sidebar-links-color: #5ce4ff;
 }
 
 #navbar-2 {
