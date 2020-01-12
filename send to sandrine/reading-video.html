@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="hamburger-onmouseover.js"></script>
+<link rel="stylesheet" type="text/css" href="CannelleCSS.css">
+<link rel="stylesheet" media="(max-width: 450px)" href="max-450px.css">
+<link href="https://fonts.googleapis.com/css?family=Righteous&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Cedarville+Cursive&display=swap" rel="stylesheet"><!-- Google Fonts - Cedarville Cursive -->
+
+<title>Cannelle la Demoiselle</title>
+</head>
+<body>
+
+	<main id="main-content">
+
+		<div id="homepage-title-main-content" class="textWhite">Cannelle la Demoiselle</div>
+		<div id="homepage-intro-text" class="textWhite">
+		</div>
+
+		<div id="video-cannelle-3-min-div">
+			<iframe id="video-cannelle-3-min" width="1000" height="562.5" src="https://www.youtube.com/embed/zckH1hAq440" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		</div>
+
+		<div id="paypal-donate-div">
+			<div id="paypal-donate-and-cannelle-div">
+				<form id="paypal-donate" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+					<input type="hidden" name="cmd" value="_donations" />
+					<input type="hidden" name="business" value="omarshishanischool@gmail.com" />
+					<input type="hidden" name="currency_code" value="USD" />
+					<input type="hidden" name="amount" value="1" />
+					<input id="paypal-donate-button" type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+					<img alt="children's book donation" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+				</form>
+				<img id="paypal-cannelle" src="web-ready-pics\cannelle-paypal.jpg">
+			</div>
+		</div>
+
+		<div id="homepage-content-div"> <!-- This div is to allow flexbox to position elements correctly.  -->
+		</div> <!-- div id="homepage-content-div" -->
+		
+	</main> <!-- <main id="main-content"> -->
+
+</body>
+</html>
+
+<script type="text/javascript" src="navbar-sidebar-cannelle.js"></script>
+
+<script type="text/javascript">
+	const bodyConst = document.querySelector('body');
+const strNavSideBar = String.raw`
+<nav id="navbar-2">
+	<div id="navbar-2-left">
+		<h1 id="h1-cannelle">Cannelle la Demoiselle</h1>
+	</div>
+
+	<a id="navbar-hamburger-a-tag" href="mobile-navigation-page.html">
+		<div id="navbar-hamburger" onclick="hamburgerSwirl(), hamburgerClone(), hamburgerDropdown()"> 
+			<div class="navbar-hamburger-bun"></div>
+			<div class="navbar-hamburger-bun"></div>
+			<div class="navbar-hamburger-bun"></div>
+		</div>
+	</a>
+</nav> <!-- <nav id="navbar-2"> -->
+
+<div id="sidebar-2">
+	<div id="sidebar-links">
+		<a href="index.html">
+			Homepage
+		</a>
+		<a href="welcome.html">
+			Welcome
+		</a>
+		<a href="reading-video.html">
+			Reading Video
+		</a>
+		<a href="Rowdy_Artworks.html">
+			Contact
+		</a>
+		<a href="Rowdy_Art_Music.html">
+			French Proverbs & Expressions
+		</a>
+		<a href="Rowdy_Photo_Gallery.html">
+			Links I Like
+		</a>
+	</div> <!-- <div id="sidebarLinks"> -->		
+</div> <!-- <div id="sidebar-2"> -->
+`;
+bodyConst.insertAdjacentHTML('afterbegin', strNavSideBar);
+	
+
+</script>

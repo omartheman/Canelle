@@ -25,13 +25,13 @@ const strNavSideBar = String.raw`
 		<a href="reading-video.html">
 			Reading Video
 		</a>
-		<a href="contact.html">
+		<a href="Rowdy_Artworks.html">
 			Contact
 		</a>
-		<a href="proverbs.html">
+		<a href="Rowdy_Art_Music.html">
 			French Proverbs & Expressions
 		</a>
-		<a href="links-i-like.html">
+		<a href="Rowdy_Photo_Gallery.html">
 			Links I Like
 		</a>
 	</div> <!-- <div id="sidebarLinks"> -->		

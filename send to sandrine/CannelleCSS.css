@@ -865,27 +865,16 @@ p {
     visibility: hidden;
   }
 }
-/*
-#c381db purple (navbar)
-#5422d4 dark blue (background)
-#2de0ce turquoise (text) 
-*/
-
-:root {
-  --site-background-color: #5422d4;
-  --sidebar-background-color: #c381db;
-  --sidebar-links-color: #2de0ce;
-}
-
 #navbar-2 {
-  background-color: #c381db; 
+  background-color: #896b99; 
 }
 #sidebar-2 {
-  background-color: var(--sidebar-background-color);
+  background-color:;
 }
 body {
-  background-color: var(--site-background-color);
-}
-#sidebar-links a {
-  color: var(--sidebar-links-color);
-}
+  background-color: ;
+
+/*#c381db purple
+#5422d4 dark blue
+#2de0ce turquoise
+*/

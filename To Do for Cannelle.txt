@@ -1,8 +1,10 @@
 
 To do for Cannelle
 
-1. Fix sidebar spacing of words
+1. Fix sidebar spacing of words //DONE
 
-2. Add sidebar/navbar to javascript 
+2. Add sidebar/navbar to javascript  //DONE
 
 3. Check mobile compatibility
+
+4. Add contact info at a footer at bottom of each page. 

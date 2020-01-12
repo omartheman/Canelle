@@ -1,0 +1,284 @@
+body {
+  background-color: #7e27e8;
+}
+.gridContainerGallery {
+  height: 90vh;
+  /*Height sets total grid area height, and creates more space between rows when it is increased.*/
+  margin: 0;
+  /*This margin sets space between grid container and surrounding elements.*/
+  display: static;
+  grid-gap: 0;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+}
+  /*Following are indented because they relate to .homeGridContainer (for organization of the CSS)*/
+  .cell img {
+    width: 100%;
+    display: inline-block;
+    height: auto;
+    vertical-align: -180px;
+  }
+  .cell span {
+    display: inline-block;
+    margin-bottom: 5px;
+  }
+  .cell {
+    color: white;
+    font-size: ;
+    margin-bottom: 1em; 
+    text-align: center;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    /*Width makes background show outside of image.*/
+    /*Width of cell changes size of whole grid. Width for .homeGridContainer seems to do nothing.*/
+    /*Width of cell allowed whole grid to not go all the way to the right edge*/
+    
+  }
+  .cell:first-of-type {
+    margin-top: 1em;
+  }
+  .cell-1 {
+    background: red;
+  }
+  .cell-2 {
+    background: pink;
+  }
+  .cell-3 {
+    background: maroon;
+  }
+  .cell-4 {
+    background: blue;
+  }
+  .cell-5 {
+    background: transparent;
+  }
+  .cell-6 {
+    background: transparent;
+  }
+  .cell-7 {
+    background: transparent;
+  }
+  .cell-8 {
+    background: transparent;
+  }
+  .cell-9 {
+    background: transparent;
+  }
+#h1-RowdyArtCom {
+  color: purple;
+  font-size: 1.6em;
+}
+#h1-RowdyArtCom-lit {
+  color: purple;
+  font-size: 1.6em;
+}
+.home-link-featured{
+  height: 0px;
+  width: 0px;
+  position: absolute;
+    left: -10000px;
+    visibility: hidden;
+}
+#home-icon-button {
+  position: static;
+    left: auto;
+  height: auto;
+    width: 2em;
+}
+#home-icon-button-container {
+  position: static;
+    left: auto;
+  height: auto;
+    width: auto;
+}
+.home-pic-div {
+  position: relative;
+}
+.home-pic-title  {
+  background-color: black;
+  border: 1px solid #ebc034;
+  border-bottom: none;
+  border-left:none;
+  border-radius: 0;
+  color: white;
+  margin: 0.3em 0 0 0;
+  position: static;
+    left: 0;
+    top: 0;
+  padding: 0.5em;
+  visibility: visible;
+  width: max-content;
+}
+  .home-pic-div:hover .home-pic-title {
+  visibility: visible;
+  }
+.home-img-1 {
+  border-top: 1px solid #ebc034;
+  border-bottom:  1px solid #ebc034;
+  border-radius: 0;
+    display: block;
+  height: auto;
+  object-fit: contain;
+  margin: 0 0 1.5em 0;
+  width: 100vw;
+  background-color: blue;
+}
+#homepage-content-div {
+  display: flex;
+  flex-wrap: auto;
+  justify-content: auto;
+}
+.lit-articles-lit-gallery /*selector here same as original; just used for reference*/ {
+  margin: 0.5em;
+  padding: 1em;
+}
+.lit-title {
+  font-size: 1.4em;
+  font-weight: 800;
+}
+.lit-title-1-LP /*LP stands for 'Literature Page'*/ {
+  margin-right: 1.5em;
+  text-align: right;
+}
+.lit-title-3-LP {
+  margin-right: 2em;
+  text-align: right;
+}
+#lit-article-1 {
+  border-radius: var(--article-border-radius);
+  width: 100%;
+    height: 8em;
+}
+#lit-article-2 {
+  margin-left: auto;
+  margin-right: 0.5em;
+  width: 80%;
+    height: 9em;
+  background-color: #69a852;
+  border-radius: var(--article-border-radius);
+}
+#lit-article-3 {
+  background-color: #52a87a;
+  border-radius: var(--article-border-radius);
+  margin-left: 1.3em;
+  width: 75%;
+    height: 16em;
+}
+#lit-article-4 {
+  width: 300px;
+    height: 100px;
+  background-color: #39e361;
+  border-radius: var(--article-border-radius);
+}
+#lit-article-5 {
+  width: 350px;
+    height: 50px;
+  background-color: mediumseagreen; 
+  border-radius: var(--article-border-radius);
+}
+#main-content {
+  margin-top: 0.4em;
+  margin-left: 0;
+  padding: 0px;
+}
+#main-content-lit {
+  display: flex; 
+    flex-wrap: wrap;
+  margin-top: 0;
+  margin-left: 0;
+  padding: 5px;
+}
+.font-size {
+  font-size: 1.6em;
+}
+#navbar-2 {
+  background-color: #f07fe6; 
+  display: flex;
+    align-items: center;
+    justify-content: space-between;
+  height: var(--navbar-height-mobile);
+  position: static;
+    top: 0;
+  width: 100%;
+  z-index: 101;
+}
+#navbar-2-mobile-navigation-page {
+  background-color: #f07fe6; 
+  display: flex;
+    align-items: center;
+    justify-content: space-between;
+  height: var(--navbar-height-mobile);
+  position: fixed;
+    top: 0;
+  width: 100%;
+  z-index: 101;
+}
+#navbar-hamburger {
+  background-color: #ebc034;
+  display: flex; 
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+  height: 50px;
+    width: 50px;
+  position: fixed;
+    left: auto;
+    right: 0;
+    top: 0;
+  z-index: 100;
+}
+#navbar-mobile {
+	background-color: #e3397a;
+  height: max-content;
+  	width: 100%;
+  position: static;
+    left: 0;
+}
+#navbar-mobile a {
+  display: flex;
+    justify-content: center;
+  padding: 1.6rem;
+  font-size: 1.7rem;
+  border-bottom: 3px solid #ebc034;
+}
+#navbar-mobile a:first-of-type {
+  border-top: 3px solid #ebc034;
+}
+#navbar-mobile-featured {
+  background-color: #e3397a;
+  border-radius: 1em;
+  border: 0.1em solid #ebc034;
+  height: max-content;
+    width: 90vw;
+
+  position: fixed;
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: 0;
+}
+#navbar-mobile-featured a {
+  display: flex;
+  text-align: center;
+  padding: 1rem;
+  font-size: 1.7rem;
+}
+#sidebar-2 {
+  position: absolute;
+  	left: -100000px;
+  height: 0px;
+    width: 0px;
+  visibility: hidden;
+}
+#welcome-story-pic {
+  border-radius: 0px;
+  display: block;
+  margin: auto;
+  height: auto;
+  width: 100%;
+}
+#welcome-story-figure {
+  margin: 0;
+  width: 100%;
+}
