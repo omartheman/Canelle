@@ -237,10 +237,9 @@ p {
   width: 100%;
 }
 #homepage-title-main-content {
-  font-family: 'Cedarville Cursive', cursive;
+  font-family: 'Cinzel', serif;
   font-size: 3em;
   text-align: center;
-  text-decoration-line: underline;
   margin: 0.4em;
 }
 #homeFeatured {

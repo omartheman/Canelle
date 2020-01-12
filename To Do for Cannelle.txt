@@ -8,3 +8,5 @@ To do for Cannelle
 3. Check mobile compatibility
 
 4. Add contact info at a footer at bottom of each page. 
+
+5. Change font to Capitals
