@@ -65,7 +65,7 @@ p {
   display: block;
   height: auto;
     width: 50em;
-  margin: auto auto 10em auto;
+  margin: auto auto 4em auto;
 }
 #contact-paragraph {
   margin: auto 20vw;
@@ -562,6 +562,9 @@ p {
       transform: rotate(180deg) scale(0.2);
     }
   }
+.indent {
+  text-indent: 1em;
+}
 #omarAndMarisa {
   width: 300px;
   border-width: 6px;
@@ -621,6 +624,7 @@ p {
   font-size: 1.7em;
 }
 #self-portrait {
+  border: 2px solid var(--image-border-color);
   display: block;
   height: 40em;
   margin: auto;
@@ -695,6 +699,9 @@ p {
 #video-cannelle-3-min-div iframe {
   margin: auto;
 }
+.welcome-font {
+  font-size: 1.5em;
+}
 .welcomeText {
   border: 0px solid #ebc034;
   border-radius: 7px;
@@ -703,20 +710,35 @@ p {
   text-align: center;
   width: 65%;
 }
-#welcome-story-figure {
-}
 #welcome-story-figure figcaption {
   font-size: 3em;
+  font-style: ;
   text-align: center;
   margin-bottom: 0.3em;
+  margin-top: 2em;
 }
 #welcome-story-pic {
+  border: 2px solid var(--image-border-color);
   display: block;
   margin: auto;
   height: auto;
   width: 60vw;
 }
-  /*The following @media work for laptop downsizing width*/
+.welcome-team-inner-div {
+  padding: 1.5em 7.5em;
+}
+.welcome-team-outer-div {
+  background-color: var(--sidebar-background-color);
+  border: 2px solid var(--image-border-color);
+  margin: auto;
+  width: 40em;
+    max-width: 100%;
+}
+.welcome-team-outer-div-for-margin {
+  padding: 2em;
+}
+
+{  /*The following @media work for laptop downsizing width*/
 }
 @media (max-width: 1280px) {
   .gridContainerGallery {
@@ -875,6 +897,7 @@ p {
   --site-background-color: #5422d4;
   --sidebar-background-color: #c153e0;
   --sidebar-links-color: #5ce4ff;
+  --image-border-color: #ebc034;
 }
 
 #navbar-2 {
