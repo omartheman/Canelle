@@ -18,3 +18,7 @@ To do for Cannelle
 7. See how many people viewed the website.
 
 8. Make a page to buy the book.
+
+9. Fix video for resize
+
+10. Fix self-portrait size

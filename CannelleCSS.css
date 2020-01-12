@@ -703,7 +703,9 @@ p {
   display: inline-block;
 }
 #video-cannelle-3-min-div {
+  /*Youtube*/
   display: flex;
+  max-width: 100%;
 }
 #video-cannelle-3-min-div iframe {
   margin: auto;
