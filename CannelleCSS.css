@@ -429,7 +429,6 @@ p {
   margin: auto;  width: 80%;
 }
 #main-content {
-  margin-top: var(--navbar-height);
   margin-left: var(--sidebar-width);
   padding: 0.2em;
 }
@@ -638,7 +637,6 @@ p {
   border-right: 3px solid #ebc034;
   height: 100%;
     width: var(--sidebar-width);
-  margin-top: var(--navbar-height);
   overflow-x: hidden; 
   padding-top: 5px;
   position: fixed;
