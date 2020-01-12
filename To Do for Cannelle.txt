@@ -10,3 +10,11 @@ To do for Cannelle
 4. Add contact info at a footer at bottom of each page. 
 
 5. Change font to Capitals
+
+6. Make it so that the link unlocks when people donate to paypal. 
+
+6. fix mobile sizes of welcome images
+
+7. See how many people viewed the website.
+
+8. Make a page to buy the book.

@@ -59,9 +59,9 @@ input {
   border-style: solid;
 }
 p {
-  text-align: justify;
 }
 #cannelle-cover-homepage-pic {
+  border: 2px solid var(--image-border-color);
   display: block;
   height: auto;
     width: 50em;
@@ -117,6 +117,9 @@ p {
   margin-top: 0px;
   color: #451085;
   font-weight: 900;
+}
+.font-color-turquoise {
+  color: #5ce4ff;
 }
 .fontCormorantGaramond {
   font-family: 'Cormorant Garamond', serif;
@@ -237,7 +240,7 @@ p {
   width: 100%;
 }
 #homepage-title-main-content {
-  font-family: 'Cinzel', serif;
+  font-family: var(--header-font);
   font-size: 3em;
   text-align: center;
   margin: 0.4em;
@@ -366,6 +369,10 @@ p {
   border-style: solid;
   border-radius: 10px;
   margin: 10px;
+}
+.indent {
+  overflow-wrap: break-word;
+  color: blue;
 }
 #largeLetterMissionStatement {
   font-size: 2em;
@@ -626,11 +633,13 @@ p {
 #self-portrait {
   border: 2px solid var(--image-border-color);
   display: block;
-  height: 40em;
+  width: 20em;
+  ;
   margin: auto;
 }
 #self-portrait-figure figcaption {
   font-size: 3em;
+  font-family: var(--header-font);
   text-align: center;
   margin-bottom: 0.3em;
   margin-top: 2em;
@@ -712,7 +721,7 @@ p {
 }
 #welcome-story-figure figcaption {
   font-size: 3em;
-  font-style: ;
+  font-family: var(--header-font);
   text-align: center;
   margin-bottom: 0.3em;
   margin-top: 2em;
@@ -795,13 +804,13 @@ p {
     margin-left: auto;
     padding: 0.2em;
   }
-#main-content-lit {
-  display: flex; 
-    flex-wrap: wrap;
-  margin-top: var(--navbar-height);
-  margin-left: 0;
-  padding: 0.2em;
-}
+  #main-content-lit {
+    display: flex; 
+      flex-wrap: wrap;
+    margin-top: var(--navbar-height);
+    margin-left: 0;
+    padding: 0.2em;
+  }
   #mobile-navigation-error-message-div {
     position: static;
       left: -10000px;
@@ -868,12 +877,33 @@ p {
     display: flex;
     position: static;
   }
+  #self-portrait {
+    border: 2px solid var(--image-border-color);
+    display: block;
+    height: auto;
+    margin: auto;
+    width: 100%;
+  }
+  #self-portrait-figure {
+    margin: auto;
+    width: 80vw;
+  }
   #sidebar-2 {
     position: absolute;
       left: -100000px;
     height: 0px;
       width: 0px;
     visibility: hidden;
+  }
+  #welcome-story-pic {
+    width: 100%;
+  }
+  #welcome-story-figure {
+    margin: 0;
+    width: 100%;
+  }
+  .welcome-team-inner-div {
+    padding: 1.5em 2.5em;
   }
 }
 @media (max-width: 400px) {
@@ -898,6 +928,7 @@ p {
   --sidebar-background-color: #c153e0;
   --sidebar-links-color: #5ce4ff;
   --image-border-color: #ebc034;
+  --header-font: 'Cinzel', serif;
 }
 
 #navbar-2 {
