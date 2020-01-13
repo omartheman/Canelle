@@ -10,7 +10,6 @@ img, embed, object, video {
 */
 /*3.9 rem is navbar mobile height*/
 :root {
-  --footer-height: 5rem;
   --navbar-height: 3.9rem;
   --navbar-height-mobile: 3.2rem;
   --sidebar-width: 11rem;
@@ -130,24 +129,6 @@ p {
 }
 .font-size {
   font-size: 1.2em;
-}
-#footer {
-  background-color: var(--sidebar-background-color); 
-  display: flex;
-    align-items: center;
-    justify-content: space-between;
-  height: var(--footer-height);
-  margin-left: var(--sidebar-width);
-  padding-left: 4em;
-  position: static;
-    bottom: 0;
-  width: 100%;
-  z-index: 101;
-}
-.footer-font {
-  font-size: 1.3em;
-  color: black;
-  font-family: 'Josefin Sans', sans-serif;
 }
 .galleryWidth {
   width: 20%;
@@ -507,7 +488,7 @@ p {
   padding: 0px;
 }
 #navbar-2 {
-  background-color: var(--sidebar-background-color); 
+  background-color: #896b99; 
   display: flex;
     align-items: center;
     justify-content: space-between;
@@ -953,7 +934,7 @@ p {
 }
 
 #navbar-2 {
-  background-color: var(--sidebar-background-color); 
+  background-color: #c381db; 
 }
 #sidebar-2 {
   background-color: var(--sidebar-background-color);
