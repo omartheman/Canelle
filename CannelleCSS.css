@@ -677,8 +677,9 @@ p {
 }
 #sidebar-links a {
   color: #31bac4;
+  display: block;
   padding: 1em 0 0 0.6em;
-  font-size: 1.2em;
+  font-size: 1.7em;
 }
 #sidebar-links-lit-page {
   background-color: #e3397a;
@@ -953,8 +954,6 @@ p {
 
 #navbar-2 {
   background-color: var(--sidebar-background-color); 
-  border-bottom: 3px solid var(--image-border-color);
-    
 }
 #sidebar-2 {
   background-color: var(--sidebar-background-color);
