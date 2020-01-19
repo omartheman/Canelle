@@ -678,11 +678,15 @@ p {
     top: 0;
   z-index: 100;
 }
+#sidebar-links a:first-of-type {
+  padding-top: 1.5em;
+}
 #sidebar-links a {
   color: #31bac4;
   display: block;
-  padding: 1em 0 0 0.6em;
+  padding-top: 2em;
   font-size: 1.7em;
+  text-align: center;
 }
 #sidebar-links-lit-page {
   background-color: #e3397a;
@@ -758,6 +762,7 @@ p {
   width: 60vw;
 }
 .welcome-team-inner-div {
+  border-radius: 10px;
   padding: 1.5em 7.5em;
 }
 .welcome-team-outer-div {

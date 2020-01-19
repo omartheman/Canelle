@@ -4,7 +4,7 @@ const strNavSideBar = String.raw`
 <div id="sidebar-2">
 	<div id="sidebar-links">
 		<a href="index.html">
-			Welcome / Contact
+			Welcome/ Contact
 		</a>
 		<a href="reading-video.html">
 			Reading Video
