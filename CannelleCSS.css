@@ -396,6 +396,9 @@ p {
 #largeLetterMissionStatement {
   font-size: 2em;
 }
+.links-i-like-text {
+  padding: 0 13vw 0 6vw;
+}
 .linkUnderHomeLink{
   clear: both;
   margin-top: 5px;
