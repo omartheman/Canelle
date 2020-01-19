@@ -259,8 +259,8 @@ p {
   width: 100%;
 }
 #homepage-title-main-content {
-  font-family: var(--header-font);
-  font-size: 3em;
+  font-family: 'Lato', sans-serif;
+  font-size: 2.5em;
   text-align: center;
   margin: 0.4em;
 }
@@ -957,7 +957,7 @@ p {
   --sidebar-background-color: #c153e0;
   --sidebar-links-color: #5ce4ff;
   --image-border-color: #ebc034;
-  --header-font: 'Cinzel', serif;
+  --header-font: 'Alata', sans-serif;
 }
 
 #navbar-2 {
