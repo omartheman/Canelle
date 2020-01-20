@@ -682,10 +682,13 @@ p {
   padding-top: 1.5em;
 }
 #sidebar-links a {
+  background-color: blue;
+  border-radius: 0.6em;
   color: #31bac4;
   display: block;
-  padding-top: 2em;
+  padding: 1em;
   font-size: 1.7em;
+  margin: 1em 0.5em 0 0.5em;
   text-align: center;
 }
 #sidebar-links-lit-page {

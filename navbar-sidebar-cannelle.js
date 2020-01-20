@@ -4,13 +4,13 @@ const strNavSideBar = String.raw`
 <div id="sidebar-2">
 	<div id="sidebar-links">
 		<a href="index.html">
-			Welcome/ Contact
+			Welcome & Contact
 		</a>
 		<a href="reading-video.html">
 			Reading Video
 		</a>
 		<a href="proverbs.html">
-			French Proverbs & Expressions
+			French Proverbs
 		</a>
 		<a href="links-i-like.html">
 			Links I Like
