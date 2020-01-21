@@ -682,7 +682,7 @@ p {
   padding-top: 1.5em;
 }
 #sidebar-links a {
-  background-color: blue;
+  background-color: var(--site-background-color);
   border-radius: 0.6em;
   color: #31bac4;
   display: block;
