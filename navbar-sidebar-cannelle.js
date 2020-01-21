@@ -9,6 +9,9 @@ const strNavSideBar = String.raw`
 		<a href="reading-video.html">
 			Reading Video
 		</a>
+		<a href="ebook-donate.html">
+			eBook
+		</a>
 		<a href="proverbs.html">
 			French Proverbs
 		</a>

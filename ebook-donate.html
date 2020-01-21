@@ -14,8 +14,23 @@
 <body>
 
 	<main id="main-content">
-
-		Purchase the eBook! 
+		<div class="welcome-team-outer-div-for-margin"><!--  This div is here so that welcome-team-div can have padding to create a margin, since using margin creates horizontal scroll -->
+			<div class="welcome-team-outer-div">
+				<div class="welcome-team-inner-div">
+					<p class="textWhite welcome-font">
+						<p class="textWhite welcome-font">Purchase the eBook! </p>
+					</p>
+				</div>
+			</div>
+		</div>
+			
+		<!-- Following code is the new paypal button that should redirect to my site. -->
+		<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+			<input type="hidden" name="cmd" value="_s-xclick">
+			<input type="hidden" name="hosted_button_id" value="JRKKYPDHG56FS">
+			<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+			<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+		</form>
 
 	</main> <!-- <main id="main-content"> -->
 
