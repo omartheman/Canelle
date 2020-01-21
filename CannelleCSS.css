@@ -92,6 +92,9 @@ p {
   clear: both;
   padding: 10px;
 }
+#ebook-link {
+  color: red;
+}
 #featured-artist-name {
   display: block;
 }
