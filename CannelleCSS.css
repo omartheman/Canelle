@@ -399,8 +399,25 @@ p {
 #largeLetterMissionStatement {
   font-size: 2em;
 }
+.links-i-like-divs:first-of-type {
+  margin-top: 3em;
+}
+.links-i-like-divs {
+  margin-bottom: 5em;
+}
+.links-i-like-h2 {
+  font-size: 1.6em;
+}
 .links-i-like-text {
   padding: 0 13vw 0 6vw;
+}
+
+.links-i-like-titles a {
+  color: #ebc034;
+  text-decoration: underline;
+}
+.links-i-like-titles a:visited {
+  color: pink;
 }
 .linkUnderHomeLink{
   clear: both;

@@ -37,3 +37,6 @@ To do for Cannelle
 
 111. Update 'links i like' format
 
+15. Change the 'donate' button on ebook page to 'purchase'!
+
+16. html checker!
