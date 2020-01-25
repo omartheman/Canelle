@@ -1,0 +1,14 @@
+Cannelle eBook Paypal Developer Info
+
+Sandbox account
+sb-dd8ww731420@business.example.com
+Client ID
+AQ748LbJFm4vNS-_ML2gkLRmE8ZTpKmkWmRrsOMpuHdXCxjRo9pRV8KzGbbqAt2n51J8LUAOLlqBE6SP
+Secret
+Hide
+Note: When you generate a new secret, you still maintain the original secret. The maximum number of client secrets is two. A client secret is either in enabled or disabled state.
+
+Created	Secret	Status	Action
+Jan 24, 2020	EMOxuZUuNHYpyWM-DL9XZtEmJVy-sVzpSDHC2hKLnI-LjCE0KqD-eZwEMWf35ySx1d_K0mlgqEpgi1lU	Enabled	
+•••
+Generate New Secret

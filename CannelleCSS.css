@@ -15,6 +15,7 @@ img, embed, object, video {
   --navbar-height-mobile: 3.2rem;
   --sidebar-width: 11rem;
   --article-border-radius: 1em;
+  --french-proverbs-font-size: 1.6em;
 }
 a {
   text-decoration: none;
@@ -399,6 +400,9 @@ p {
 #largeLetterMissionStatement {
   font-size: 2em;
 }
+.links-i-like-description-paragraphs {
+  font-size: 1.6em;
+}
 .links-i-like-divs:first-of-type {
   margin-top: 3em;
 }
@@ -406,12 +410,24 @@ p {
   margin-bottom: 5em;
 }
 .links-i-like-h2 {
+  color: #02ffe9;
   font-size: 1.6em;
+}
+#links-i-like-intro-text-div {
+  font-size: 1.4em;
+  padding-left: 2em;
+  margin-bottom: 3em;
+  text-indent: 2em;
 }
 .links-i-like-text {
   padding: 0 13vw 0 6vw;
 }
-
+.links-i-like-text h3 {
+ font-size: var(--french-proverbs-font-size);
+}
+.links-i-like-text h4 {
+ font-size: var(--french-proverbs-font-size);
+}
 .links-i-like-titles a {
   color: #ebc034;
   text-decoration: underline;
@@ -658,6 +674,21 @@ p {
   width: 100%;
   margin: 1.5%;
 }
+.proverb-divs {
+  color: white;
+  margin-bottom: 1.5em;
+  margin-left: 5vw;
+  margin-right: 5vw;
+}
+#proverb-div-main {
+  font-size: 1.6em;
+  max-width: 100%;
+  margin: auto;
+  width: 70vw;
+}
+.proverb-quotes {
+  color: #ffe40d;
+}
 .rowdyArtDotComText {
   color: #ebc034;
   font-size: 18px;
@@ -700,13 +731,15 @@ p {
 }
 #sidebar-links a:first-of-type {
   padding-top: 1.5em;
+  padding: 0.5em 0.4em;
 }
 #sidebar-links a {
+  align-items: center;
   background-color: var(--site-background-color);
   border-radius: 0.6em;
   color: #31bac4;
   display: block;
-  padding: 1em;
+  padding: 0.4em;
   font-size: 1.7em;
   margin: 1em 0.5em 0 0.5em;
   text-align: center;
