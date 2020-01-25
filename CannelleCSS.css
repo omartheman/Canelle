@@ -411,13 +411,17 @@ p {
 }
 .links-i-like-h2 {
   color: #02ffe9;
+  text-align: center;
   font-size: 1.6em;
+}
+#links-i-like-h2-div {
+  margin-top: 4em;
 }
 #links-i-like-intro-text-div {
   font-size: 1.4em;
   padding-left: 2em;
   margin-bottom: 3em;
-  text-indent: 2em;
+  text-align: center;
 }
 .links-i-like-text {
   padding: 0 13vw 0 6vw;
