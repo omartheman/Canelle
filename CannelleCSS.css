@@ -93,6 +93,15 @@ p {
   clear: both;
   padding: 10px;
 }
+#ebook-donate-pic img {
+  border-radius: 10px;
+  display: block;
+  width: 40em;
+  margin: auto;
+}
+#ebook-h2 {
+  text-align: center;
+}
 #ebook-link {
   color: red;
 }
@@ -649,15 +658,25 @@ p {
   width: 10em;
   margin: auto;
 }
-
 #paypal-donate-button{
   display: block;
   margin: auto;
 }
 #paypal-donate-div {
   display: flex;
-  margin-top: 2em;
-  margin-bottom: 10em;
+  margin-top: 1em;
+  margin-bottom: 2em;
+}
+#paypal-donate-div input {
+  display: block;
+  margin: auto;
+  margin-top: 0.5em;
+}
+#paypal-donate-div td {
+  display: block;
+  color: white;
+  margin-bottom: 0.3em;
+  text-align: center;
 }
 #paypal-donate-and-cannelle-div {
   margin: auto;
