@@ -246,6 +246,14 @@ p {
   .cell-9 {
     background: transparent;
   }
+.h2-title {
+  color: #02ffe9;
+  text-align: center;
+  font-size: 1.2em;
+}
+.h3-title {
+  font-size: 1em;
+}
 .home-img-1 {
   border-radius: 0.6em;
   height: 18em;
@@ -672,17 +680,17 @@ p {
   margin-top: 1em;
   margin-bottom: 2em;
 }
-#paypal-donate-div input {
-  display: block;
-  margin: auto;
-  margin-top: 0.5em;
-}
-#paypal-donate-div td {
-  display: block;
-  color: white;
-  margin-bottom: 1em;
-  text-align: center;
-}
+  #paypal-donate-div input {
+    display: block;
+    margin: auto;
+    margin-top: 0.5em;
+  }
+  #paypal-donate-div td {
+    display: block;
+    color: white;
+    margin-bottom: 1em;
+    text-align: center;
+  }
 #paypal-donate-and-cannelle-div {
   margin: auto;
 }
@@ -796,18 +804,8 @@ p {
   color: #ebc034;
   font-family: 'Josefin Sans', sans-serif;
 }
-#trissDescription {
-  float: left;
-}
-#trissOnHerPage {
-  border-color: #ebc034;
-  border-style: solid;
-  border-width: 3px;
-  width: 60%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  float: none;
+.thanks-people-outer-div {
+  
 }
 #user_pass_button_id {
   display: inline-block;
@@ -817,9 +815,9 @@ p {
   display: flex;
   max-width: 100%;
 }
-#video-cannelle-3-min-div iframe {
-  margin: auto;
-}
+  #video-cannelle-3-min-div iframe {
+    margin: auto;
+  }
 .welcome-font {
   font-size: 1.5em;
 }

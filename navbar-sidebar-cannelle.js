@@ -18,6 +18,9 @@ const strNavSideBar = String.raw`
 		<a href="links-i-like.html">
 			Links I Like
 		</a>
+		<a href="thanks.html">
+			Thanks
+		</a>
 	</div> <!-- <div id="sidebarLinks"> -->		
 </div> <!-- <div id="sidebar-2"> -->
 `;
