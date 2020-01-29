@@ -65,6 +65,10 @@ input {
 }
 p {
 }
+.book-purchase-text-inner-div{
+  border-radius: 10px;
+  padding: 1em 0;
+}
 #cannelle-cover-homepage-pic {
   border: 2px solid var(--image-border-color);
   display: block;
