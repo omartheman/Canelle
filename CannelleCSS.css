@@ -837,6 +837,22 @@ p {
   #video-cannelle-3-min-div iframe {
     margin: auto;
   }
+#video-cannelle-full-div {
+  /*Youtube*/
+  display: flex;
+  max-width: 100%;
+  margin-bottom: 20em;
+}
+  #video-cannelle-full-div iframe {
+    margin: auto;
+  }
+#video-full-h3 {
+  text-align: center;
+  font-size: 1.6em;
+}
+#video-full-purchase-complete-div {
+  padding: 1em 13vw 2em 13vw;
+}
 .welcome-font {
   font-size: 1.5em;
 }
