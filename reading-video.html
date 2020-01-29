@@ -25,27 +25,22 @@
 
 		<div id="paypal-donate-div">
 			<div id="paypal-donate-and-cannelle-div">
+
+				<div class="font-1point2em text-gold">
+					Please make a donation of $1.00 or more to get access to the full audio.
+				</div>
+
 				<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-					<input type="hidden" name="cmd" value="_donations" />
-					<input type="hidden" name="business" value="cannellelademoiselle@gmail.com" />
-					<input type="hidden" name="currency_code" value="USD" />
-					<input type="image" id="paypal-donate-button" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
-					<img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+					<input type="hidden" name="cmd" value="_s-xclick">
+					<input type="hidden" name="hosted_button_id" value="ZD39Z2CPPTBUN">
+					<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_paynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+					<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
 					<img id="paypal-cannelle" src="web-ready-pics\cannelle-paypal.jpg">
 				</form>
+
 			</div> <!-- <div id="paypal-donate-and-cannelle-div"> -->
 
 		</div><!-- <div id="paypal-donate-div"> -->
-
-			
-		<!-- Following code is the new paypal button that should redirect to my site. -->
-		<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-			<input type="hidden" name="cmd" value="_s-xclick">
-			<input type="hidden" name="hosted_button_id" value="JRKKYPDHG56FS">
-			<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-			<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-		</form>
-
 
 		<div id="homepage-content-div"> <!-- This div is to allow flexbox to position elements correctly.  -->
 		</div> <!-- div id="homepage-content-div" -->

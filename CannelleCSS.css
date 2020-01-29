@@ -10,12 +10,15 @@ img, embed, object, video {
 */
 /*3.9 rem is navbar mobile height*/
 :root {
+  --article-border-radius: 1em;
+  --gold-border-color: #ebc034;
+  --french-proverbs-font-size: 1.6em;
+  --font-1point2em: 1.2em;
   --footer-height: 5rem;
+  --gold-border: 3px solid #ebc034;
   --navbar-height: 3.9rem;
   --navbar-height-mobile: 3.2rem;
   --sidebar-width: 11rem;
-  --article-border-radius: 1em;
-  --french-proverbs-font-size: 1.6em;
 }
 a {
   text-decoration: none;
@@ -137,6 +140,9 @@ p {
   color: #451085;
   font-weight: 900;
 }
+.font-1point2em {
+  font-size: var(--font-1point2em);
+}
 .font-color-turquoise {
   color: #5ce4ff;
 }
@@ -145,9 +151,6 @@ p {
   color: white;
   font-size: 3em;
   text-align: center;
-}
-.font-size {
-  font-size: 1.2em;
 }
 #footer {
   background-color: var(--sidebar-background-color); 
@@ -788,6 +791,9 @@ p {
   padding: 15px;
   width: 160px;
 }
+.text-gold {
+  color: var(--gold-border-color);
+}
 .textWhite {
   color: white;
   font-family: 'Josefin Sans', sans-serif;
@@ -804,8 +810,17 @@ p {
   color: #ebc034;
   font-family: 'Josefin Sans', sans-serif;
 }
-.thanks-people-outer-div {
-  
+#thanks-people-outer-div {
+
+  background-color: #671e7c;
+  border: var(--gold-border);
+  border-radius: 1em;
+  column-count: 2;
+  padding: 1em 2em;
+}
+#thanks-honey-neal-h3 {
+  color: var(--gold-border-color);
+  margin-bottom: 10em;
 }
 #user_pass_button_id {
   display: inline-block;
