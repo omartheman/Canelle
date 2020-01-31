@@ -21,6 +21,9 @@ const strNavSideBar = String.raw`
 		<a href="thanks.html">
 			Thanks
 		</a>
+		<a href="coming-soon.html">
+			Coming Soon
+		</a>
 	</div> <!-- <div id="sidebarLinks"> -->		
 </div> <!-- <div id="sidebar-2"> -->
 `;
