@@ -61,3 +61,18 @@ To do for Cannelle
 
 23. Downsize images
 24. Add note to click on "Return to Merchant"
+
+Priority: 
+NOTES for phone call: 
+
+26. Fix footer scroll bar on index page
+
+27. English title for self portrait fix
+
+28. Make box smaller for copyright //DONE
+
+29. Upload vids to sandrines YT page 
+
+30. Update thanks page from sandrines email, remove EB
+
+31. add values

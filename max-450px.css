@@ -1,3 +1,9 @@
+#footer {
+  margin-left: 0;
+  padding-left: 0;
+  padding: 0 1em;
+  word-wrap: break-word;
+}
 .gridContainerGallery {
   height: 90vh;
   /*Height sets total grid area height, and creates more space between rows when it is increased.*/

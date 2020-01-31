@@ -858,6 +858,9 @@ p {
   color: #ebc034;
   font-family: 'Josefin Sans', sans-serif;
 }
+.text-small {
+  font-size: 0.6em;
+}
 #thanks-people-outer-div {
 
   background-color: #671e7c;
