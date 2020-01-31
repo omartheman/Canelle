@@ -76,6 +76,9 @@ p {
     width: 50em;
   margin: auto auto 4em auto;
 }
+#coming-soon-ul li {
+  margin-bottom: 0.8em;
+}
 #contact-paragraph {
   margin: auto 20vw;
 }
@@ -809,6 +812,24 @@ p {
 }
 .text-gold {
   color: var(--gold-border-color);
+}
+.text-red {
+  color: #ff8484;
+}
+.text-orange {
+  color: orange;
+}
+.text-yellow {
+  color: yellow;
+}
+.text-green {
+  color: #4cff4c;
+}
+.text-blue {
+  color: #00ffd6;
+}
+.text-purple {
+  color: #ff97ff;
 }
 .textWhite {
   color: white;
