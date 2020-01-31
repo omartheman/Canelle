@@ -59,3 +59,5 @@ To do for Cannelle
 21. Add picture to ebook page
 22. Add price list to ebook page? Maybe not needed, since it's in the paypal.. Maybe a description asking for the extra donation.
 
+23. Downsize images
+24. Add note to click on "Return to Merchant"

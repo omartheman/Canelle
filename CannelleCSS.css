@@ -540,6 +540,9 @@ p {
   display: block;
   margin: auto;  width: 80%;
 }
+.margin-bottom-2em {
+  margin-bottom: 2em;
+}
 #main-content {
   margin-left: var(--sidebar-width);
   padding: 0.2em;
@@ -553,6 +556,11 @@ p {
   margin-top: var(--navbar-height);
   margin-left: var(--sidebar-width);
   padding: 0.2em;
+}
+#merchant-reminder {
+  color: #00ffca;
+  margin: auto;
+  width: 30vw;
 }
 .missionStatementHomepage {
   background-color: #e3397a;
@@ -700,7 +708,7 @@ p {
 #paypal-donate-div {
   display: flex;
   margin-top: 1em;
-  margin-bottom: 2em;
+  margin-bottom: 0em;
 }
   #paypal-donate-div input {
     display: block;
@@ -809,6 +817,9 @@ p {
   margin: var(--navbar-height) 10px 0 0;
   padding: 15px;
   width: 160px;
+}
+.text-center {
+  text-align: center;
 }
 .text-gold {
   color: var(--gold-border-color);
