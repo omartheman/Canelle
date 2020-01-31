@@ -859,6 +859,10 @@ p {
   color: var(--gold-border-color);
   margin-bottom: 10em;
 }
+#title-1 {
+  font-size: 2em;
+  text-align: center;
+}
 #user_pass_button_id {
   display: inline-block;
 }
