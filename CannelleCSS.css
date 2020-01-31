@@ -109,6 +109,18 @@ p {
 #ebook-h2 {
   text-align: center;
 }
+#ebook-h2-download {
+  text-align: center;
+  color: #211f76;
+}
+  #ebook-h2-download:hover {
+    transform: scale(1.1);
+  }
+  #ebook-h2-download a:visited {
+    text-decoration: none;
+    color: #211f76;
+    background-color: red;
+  }
 #ebook-link {
   color: red;
 }
