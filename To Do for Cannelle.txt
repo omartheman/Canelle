@@ -65,18 +65,20 @@ To do for Cannelle
 Priority: 
 NOTES for phone call: 
 
-26. Fix footer scroll bar on index page
+26. Fix footer scroll bar on index page +++++++
 
 27. English title for self portrait fix
 
-28. Make box smaller for copyright //DONE
+28. Make box smaller for copyright //DONE +++++++++
 
 29. Upload vids to sandrines YT page 
 
-30. Update thanks page from sandrines email, remove EB
+30. Update thanks page from sandrines email, remove EB 
 
 31. add values
 
-32. Automate font addition to each new page 
+32. Automate font addition to each new page //DONE +++++++
 
-33. Automate adding hamburger to each new page. 
+33. Automate adding hamburger to each new page. //DONE +++++++++
+
+34. fix mobile-navigation error message 

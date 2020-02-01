@@ -601,10 +601,13 @@ p {
     left: auto;
 }
 #mobile-navigation-main-content {
-  margin-top: var(--navbar-height);
   margin-left: var(--sidebar-width);
   padding: 0px;
 }
+#mobile-navigation-title {
+  padding: 0.5em;
+  font-size: 1.3em;
+};
 #navbar-2 {
   background-color: var(--sidebar-background-color); 
   display: flex;
@@ -643,6 +646,9 @@ p {
   width: 0px;
   height: 0px;
 }
+  #navbar-mobile a {
+    font-family: 'Josefin Sans', sans-serif;
+  }
 #navbar-mobile-featured {
   position: absolute;
     left: -10000px;

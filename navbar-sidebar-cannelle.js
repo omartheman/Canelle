@@ -42,6 +42,16 @@ const hamburger = String.raw`
 `;
 mainConst.insertAdjacentHTML('beforeend', hamburger);
 	
+//Following code inserts Google fonts on each page.
+
+const titleConst = document.querySelector('title');
+const googleFonts = String.raw`
+<link href="https://fonts.googleapis.com/css?family=Righteous&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Cedarville+Cursive&display=swap" rel="stylesheet"><!-- Google Fonts - Cedarville Cursive -->
+`;
+titleConst.insertAdjacentHTML('beforebegin', googleFonts);
+
 const sidebarLinksObj = document.querySelector('#sidebar-links').getElementsByTagName('a');
 //This loop selects all javascript buttons, and applies scale to them on mouseover. 
 for (let i = 0; i < sidebarLinksObj.length; i++) {
