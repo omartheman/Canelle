@@ -28,15 +28,22 @@ const strNavSideBar = String.raw`
 </div> <!-- <div id="sidebar-2"> -->
 `;
 bodyConst.insertAdjacentHTML('afterbegin', strNavSideBar);
+
+//Following code inserts hamburger on each page
+const mainConst = document.querySelector('main');
+const hamburger = String.raw`	
+		<a id="navbar-hamburger-a-tag" href="mobile-navigation-page.html">
+			<div id="navbar-hamburger" onclick="hamburgerSwirl(), hamburgerClone(), hamburgerDropdown()"> 
+				<div class="navbar-hamburger-bun"></div>
+				<div class="navbar-hamburger-bun"></div>
+				<div class="navbar-hamburger-bun"></div>
+			</div>
+		</a>
+`;
+mainConst.insertAdjacentHTML('beforeend', hamburger);
 	
-//Create a code using javascript that will make the buttons increase a little bit in size when you hover.
-//Use event listener for hover.
-
-//How to select all of the buttons using a javascript document.
-//Use a loop? 
 const sidebarLinksObj = document.querySelector('#sidebar-links').getElementsByTagName('a');
-//Write a loop? To make it so that for each one of these, they have an event listener that listens for hover.....
-
+//This loop selects all javascript buttons, and applies scale to them on mouseover. 
 for (let i = 0; i < sidebarLinksObj.length; i++) {
 
 	sidebarLinksObj[i].addEventListener('mouseover', function() {
