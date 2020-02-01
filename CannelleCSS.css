@@ -443,15 +443,19 @@ p {
 #largeLetterMissionStatement {
   font-size: 2em;
 }
+#links-i-like-container-div {
+}
 .links-i-like-description-paragraphs {
   font-size: 1.6em;
 }
-.links-i-like-divs:first-of-type {
-  margin-top: 3em;
-}
 .links-i-like-divs {
   margin-bottom: 5em;
+  
+  word-wrap: break-word;
 }
+  .links-i-like-divs:first-of-type {
+    margin-top: 3em;
+  }
 .links-i-like-h2 {
   color: #02ffe9;
   text-align: center;
