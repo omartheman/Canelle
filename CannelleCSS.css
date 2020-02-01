@@ -898,12 +898,21 @@ p {
       left: 0;
   }
 #video-cannelle-full-div {
-  display: flex;
-  max-width: 100%;
-  margin-bottom: 20em;
+  height: 0;
+  margin: auto;
+  max-width: 60rem;
+  overflow: hidden;
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 35px;
 }
   #video-cannelle-full-div iframe {
-    margin: auto;
+    height: 100%;
+      max-height: 33.75rem;
+    width: 100%;
+    position: absolute;
+      top:0;
+      left: 0;
   }
 #video-full-h3 {
   text-align: center;
