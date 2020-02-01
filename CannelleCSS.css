@@ -1065,6 +1065,7 @@ p {
     background-color: #e3397a;
     height: max-content;
       width: 100%;
+    margin-top: var(--navbar-height);
     position: static;
       left: 0;
   }

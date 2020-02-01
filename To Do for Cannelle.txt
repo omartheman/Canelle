@@ -76,3 +76,7 @@ NOTES for phone call:
 30. Update thanks page from sandrines email, remove EB
 
 31. add values
+
+32. Automate font addition to each new page 
+
+33. Automate adding hamburger to each new page. 
