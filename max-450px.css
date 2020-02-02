@@ -198,6 +198,13 @@
   margin-left: 0;
   padding: 5px;
 }
+#mobile-navigation-error-message-div {
+  position: absolute;
+    left: -10000px;
+    top: -10000px;
+  height: 0;
+  width: 0;
+}
 .font-size {
   font-size: 1.6em;
 }

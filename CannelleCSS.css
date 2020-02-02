@@ -1062,7 +1062,7 @@ p {
     padding: 0.2em;
   }
   #mobile-navigation-error-message-div {
-    position: static;
+    position: absolute;
       left: -10000px;
     width: 0;
     height: 0;
