@@ -1050,7 +1050,6 @@ p {
     width: 100vw;
   }
   #main-content {
-    margin-top: var(--navbar-height);
     margin-left: auto;
     padding: 0.2em;
   }
