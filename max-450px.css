@@ -297,9 +297,12 @@
   margin: 0;
   width: 100%;
 }
-#self-portrait-figure figcaption {
-  font-size: var(--header-font-size-450);
-}
+  #self-portrait-figure figcaption {
+    font-size: var(--header-font-size-450);
+  }
+  #self-portrait-figure img {
+    width: 100%;
+  }
 #sidebar-2 {
   position: absolute;
   	left: -100000px;

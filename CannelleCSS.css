@@ -795,6 +795,10 @@ p {
   margin-bottom: 0.3em;
   margin-top: 2em;
 }
+#self-portrait-figure img {
+  width: 50vw;
+    max-width: 100%;
+}
 #sidebar-2 {
   background-color: #896b99;
   border-right: 3px solid #ebc034;
