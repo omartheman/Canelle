@@ -759,8 +759,10 @@ p {
 #proverb-div-main {
   font-size: 1.6em;
   max-width: 100%;
+  margin-left: 0;
+  margin-right: 0;
   margin: auto;
-  width: 70vw;
+  width: 80vw;
 }
 .proverb-quotes {
   color: #ffe40d;
