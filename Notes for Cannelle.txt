@@ -1,0 +1,5 @@
+Notes for Cannelle
+
+How to make a div that resizes itself for mobile? I want my pages to have margins that will make them resize themselves on smaller mobile sizes, so I don't have to go and resize every damn page. 
+
+What did I just change on the last thing I did? 

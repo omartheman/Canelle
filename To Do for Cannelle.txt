@@ -82,3 +82,7 @@ NOTES for phone call:
 33. Automate adding hamburger to each new page. //DONE +++++++++
 
 34. fix mobile-navigation error message 
+
+35. !!!!!!! Fix margins for all mobile pages 
+
+36. On the video page and the ebook page, tell the user that they need to save the link, or save the YT video to their favorites, to be able to access later, on return to the website.

@@ -273,6 +273,19 @@
   padding: 1rem;
   font-size: 1.7rem;
 }
+.proverb-divs {
+  color: white;
+  margin-bottom: 1.5em;
+  margin-left: 0;
+  margin-right: 0;
+  width: 100%;
+}
+#proverb-div-main {
+  font-size: 1.6em;
+  max-width: 100%;
+  margin: auto 10vw;
+  width: auto;
+}
 #self-portrait {
   border: 2px solid var(--image-border-color);
   display: block;
