@@ -1121,8 +1121,14 @@ p {
   }
   #self-portrait-figure {
     margin: auto;
-    width: 80vw;
+    width: 100%;
   }
+    #self-portrait-figure figcaption {
+      margin: auto 3vw;
+    }
+    #self-portrait-figure img {
+      width: 100%;
+    }
   #sidebar-2 {
     position: absolute;
       left: -100000px;
