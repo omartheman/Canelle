@@ -65,6 +65,17 @@ input {
 }
 p {
 }
+noscript {
+  background-color: red;
+  color: white;
+  display: block;
+  font-family: Ariel, sans-serif;
+  font-size: 1.4em;
+  padding: 1rem;
+  position: fixed;
+  text-align: center;
+  width: 100%;
+}
 .book-purchase-text-inner-div{
   border-radius: 10px;
   padding: 1em 0;
@@ -103,6 +114,9 @@ p {
   clear: both;
   padding: 10px;
 }
+#ebook-div {
+  margin: 2em;
+}
 #ebook-donate-pic img {
   border-radius: 10px;
   display: block;
@@ -110,6 +124,8 @@ p {
   margin: auto;
 }
 #ebook-h2 {
+  color: white;
+  font-size: 2em;
   text-align: center;
 }
 #ebook-h2-download {
@@ -781,6 +797,9 @@ p {
   margin: 1em 0 0 0.8em;
   font-size: 1.7em;
 }
+.secured {
+  right: 0;
+}
 #self-portrait {
   border: 2px solid var(--image-border-color);
   display: block;
@@ -873,6 +892,9 @@ p {
 .textB {
   color: #ebc034;
   font-family: 'Josefin Sans', sans-serif;
+}
+.text-information {
+  font-size: var(--font-1point2em);
 }
 .text-small {
   font-size: 0.6em;
