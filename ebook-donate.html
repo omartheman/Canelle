@@ -1,60 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<script src="hamburger-onmouseover.js"></script>
-<link rel="stylesheet" type="text/css" href="CannelleCSS.css">
-<link rel="stylesheet" media="(max-width: 450px)" href="max-450px.css">
-<link href="https://fonts.googleapis.com/css?family=Righteous&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Cedarville+Cursive&display=swap" rel="stylesheet"><!-- Google Fonts - Cedarville Cursive -->
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<script
+		src="https://code.jquery.com/jquery-3.4.1.js"
+		integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+		crossorigin="anonymous">
+		</script>
+		<link rel="stylesheet" type="text/css" href="CannelleCSS.css">
+		<link rel="stylesheet" media="(max-width: 450px)" href="max-450px.css">
+		<link href="https://fonts.googleapis.com/css?family=Righteous&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Cedarville+Cursive&display=swap" rel="stylesheet"><!-- Google Fonts - Cedarville Cursive -->
+	<title>Cannelle la Demoiselle</title>
+	</head>
+	<body>
 
-<title>Cannelle la Demoiselle</title>
-</head>
-<body>
-
-	<main id="main-content">
-		<div class="welcome-team-outer-div-for-margin"><!--  This div is here so that welcome-team-outer-div can have padding to create a margin, since using margin on welcome-team-outer-div creates horizontal scroll -->
-			<div class="welcome-team-outer-div">
-				<h2 id="ebook-h2" class="textWhite welcome-font">Purchase the eBook! </h2>
+		<main id="main-content">
+			<div class="welcome-team-outer-div-for-margin"><!--  This div is here so that welcome-team-outer-div can have padding to create a margin, since using margin on welcome-team-outer-div creates horizontal scroll -->
+				<div class="welcome-team-outer-div">
+					<h2 id="ebook-h2" class="textWhite welcome-font">Purchase the eBook! </h2>
+				</div>
 			</div>
-		</div>
-		
-		<div id="paypal-donate-div">
-			<div id="paypal-donate-and-cannelle-div">	
-				<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-					<input type="hidden" name="cmd" value="_s-xclick">
-					<input type="hidden" name="hosted_button_id" value="SUF6AMPZ3D6SS">
-					<table>
-					<tr><td class="text-information"><input type="hidden" name="on0" value="Cannelle la Demoiselle eBook">Cannelle la Demoiselle eBook</td></tr><tr><td><select name="os0">
-						<option value="eBook =">eBook = $4.00 USD</option>
-						<option value="eBook + $4 donation =">eBook + $4 donation = $8.00 USD</option>
-						<option value="eBook + $8 donation =">eBook + $8 donation = $12.00 USD</option>
-						<option value="eBook + $16 donation =">eBook + $16 donation = $20.00 USD</option>
-						<option value="eBook + $20 donation =">eBook + $20 donation = $24.00 USD</option>
-					</select> </td></tr>
-					</table>
-					<input type="hidden" name="currency_code" value="USD">
-					<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-					<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-				</form>
+			
+			<div id="paypal-donate-div">
+				<div id="paypal-donate-and-cannelle-div">	
+					<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+						<input type="hidden" name="cmd" value="_s-xclick">
+						<input type="hidden" name="hosted_button_id" value="SUF6AMPZ3D6SS">
+						<table>
+						<tr><td class="text-information"><input type="hidden" name="on0" value="Cannelle la Demoiselle eBook">Cannelle la Demoiselle eBook</td></tr><tr><td><select name="os0">
+							<option value="eBook =">eBook = $4.00 USD</option>
+							<option value="eBook + $4 donation =">eBook + $4 donation = $8.00 USD</option>
+							<option value="eBook + $8 donation =">eBook + $8 donation = $12.00 USD</option>
+							<option value="eBook + $16 donation =">eBook + $16 donation = $20.00 USD</option>
+							<option value="eBook + $20 donation =">eBook + $20 donation = $24.00 USD</option>
+						</select> </td></tr>
+						</table>
+						<input type="hidden" name="currency_code" value="USD">
+						<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+						<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+					</form>
 
-			</div> <!-- <div id="paypal-donate-and-cannelle-div"> -->
-		</div><!-- <div id="paypal-donate-div"> -->
+				</div> <!-- <div id="paypal-donate-and-cannelle-div"> -->
+			</div><!-- <div id="paypal-donate-div"> -->
 
-		<div id="merchant-reminder" class="text-information textWhite text-center margin-bottom-2em">
-			Make sure to click the "Return to Merchant" button in Paypal's portal, to be redirected to the download page. 
-		</div>
+			<div id="merchant-reminder" class="text-information textWhite text-center margin-bottom-2em">
+				Make sure to click the "Return to Merchant" button in Paypal's portal, to be redirected to the download page. 
+			</div>
 
-		<figure id="ebook-donate-pic">
-			<img src="web-ready-pics\ebook-picture.png">
-		</figure>
-
+			<figure id="ebook-donate-pic">
+				<img src="web-ready-pics\ebook-picture.png">
+			</figure>
 
 
-	</main> <!-- <main id="main-content"> -->
 
-</body>
+		</main> <!-- <main id="main-content"> -->
+
+	</body>
 </html>
 
 <script type="text/javascript" src="navbar-sidebar-cannelle.js"></script>

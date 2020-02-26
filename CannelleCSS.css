@@ -63,8 +63,6 @@ input {
   border-width: 2px;
   border-style: solid;
 }
-p {
-}
 noscript {
   background-color: red;
   color: white;
@@ -261,7 +259,6 @@ noscript {
 }
   /*Following are indented because they relate to .homeGridContainer (for organization of the CSS)*/
   .cell img {
-    width: ;
     display: inline-block;
     height: 90%;
     vertical-align: -180px;
@@ -272,7 +269,6 @@ noscript {
   }
   .cell{
     color: white;
-    font-size: ;
     text-align: center;
     padding: 1rem;
     width: 220px;
@@ -1020,8 +1016,6 @@ noscript {
   padding: 2em;
 }
 
-{  /*The following @media work for laptop downsizing width*/
-}
 @media (max-width: 1280px) {
   .gridContainerGallery {
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -1122,15 +1116,6 @@ noscript {
       top: 0;
     z-index: 100;
   }
-  {
-  background-color: #ebc034;
-  display: flex; 
-    align-items: center;
-    flex-direction: column;
-    justify-content: space-evenly;
-  height: 50px;
-    width: 50px;
-  z-index: 100;}
   #navbar-hamburger-a-tag {
     display: flex; 
       align-items: center;

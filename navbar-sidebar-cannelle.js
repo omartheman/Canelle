@@ -1,11 +1,4 @@
 const titleConst = document.querySelector('title');
-titleConst.insertAdjacentHTML('beforebegin', String.raw`
-<script
-src="https://code.jquery.com/jquery-3.4.1.js"
-integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
-crossorigin="anonymous">
-</script>
-`);
 const bodyConst = document.querySelector('body');
 const strNavSideBar = String.raw`
 
