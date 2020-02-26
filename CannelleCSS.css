@@ -11,19 +11,19 @@ img, embed, object, video {
 /*3.9 rem is navbar mobile height*/
 :root {
   --article-border-radius: 1em;
+  --gold-border-color: #ebc034;
   --french-proverbs-font-size: 1.6em;
   --font-1point2em: 1.2em;
   --footer-height: 5rem;
   --gold-border: 3px solid #ebc034;
-  --gold-border-color: #ebc034;
-  --header-font: 'Cinzel', serif;
-  --image-border-color: #ebc034;
   --navbar-height: 3.9rem;
   --navbar-height-mobile: 3.2rem;
   --sidebar-width: 11rem;
   --site-background-color: #5422d4;
   --sidebar-background-color: #c153e0;
   --sidebar-links-color: #5ce4ff;
+  --image-border-color: #ebc034;
+  --header-font: 'Cinzel', serif;
 }
 
 }
@@ -866,10 +866,11 @@ noscript {
   border-radius: 0.6em;
   color: #31bac4;
   display: block;
-  padding: 0.4em;
   font-size: 1.7em;
+  padding: 0.4em;
   margin: 1em 0.5em 0 0.5em;
   text-align: center;
+  text-decoration: none;
 }
 #sidebar-links-lit-page {
   background-color: #e3397a;
