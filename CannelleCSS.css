@@ -3,12 +3,6 @@ img, embed, object, video {
     max-width: 100%;
 }
 
-/*COLORS!
-#ebc034 - YELLOW
-#e3397a - PINK
-#451085 - PURPLE
-*/
-/*3.9 rem is navbar mobile height*/
 :root {
   --article-border-radius: 1em;
   --gold-border-color: #ebc034;
@@ -24,12 +18,6 @@ img, embed, object, video {
   --sidebar-links-color: #5ce4ff;
   --image-border-color: #ebc034;
   --header-font: 'Cinzel', serif;
-}
-
-}
-a {
-  text-decoration: none;
-  /*The above 'text-decoration' property makes it so the links (anchor tags) don't have their usual underlined hyperlink look. This is probably why the :visited selector was not working for RowdyArt links.*/
 }
 audio {
   width: 200px;
