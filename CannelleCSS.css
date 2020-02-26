@@ -17,13 +17,13 @@ img, embed, object, video {
   --sidebar-background-color: #c153e0;
   --sidebar-links-color: #5ce4ff;
   --image-border-color: #ebc034;
-  --header-font: 'Cinzel', serif;
+  --header-font: 'Roboto Slab', 'Cinzel', serif;
 }
 audio {
   width: 200px;
 }
 body {
-  background-color: #32997e;
+  background-color: var(--site-background-color);
   margin: 0;
 }
 button {
@@ -341,7 +341,10 @@ noscript {
 #homepage-title-main-content {
   font-family: var(--header-font);
   font-size: 3em;
+  font-weight: 800;
+  letter-spacing: 0.05em;
   text-align: center;
+  transform: scale(1.2, 1);
   margin: 0.4em;
 }
 #homeFeatured {
@@ -833,7 +836,7 @@ noscript {
     max-width: 100%;
 }
 #sidebar-2 {
-  background-color: #896b99;
+  background-color: var(--sidebar-background-color);
   border-right: 3px solid #ebc034;
   height: 100%;
     width: var(--sidebar-width);
@@ -852,7 +855,7 @@ noscript {
   align-items: center;
   background-color: var(--site-background-color);
   border-radius: 0.6em;
-  color: #31bac4;
+  color: var(--sidebar-links-color);
   display: block;
   font-size: 1.7em;
   padding: 0.4em;
@@ -1199,26 +1202,4 @@ noscript {
       width: 0px;
     visibility: hidden;
   }
-}
-
-
-:root {
-  --site-background-color: #5422d4;
-  --sidebar-background-color: #c153e0;
-  --sidebar-links-color: #5ce4ff;
-  --image-border-color: #ebc034;
-  --header-font: 'Cinzel', serif;
-}
-
-#navbar-2 {
-  background-color: var(--sidebar-background-color); 
-}
-#sidebar-2 {
-  background-color: var(--sidebar-background-color);
-}
-body {
-  background-color: var(--site-background-color);
-}
-#sidebar-links a {
-  color: var(--sidebar-links-color);
 }

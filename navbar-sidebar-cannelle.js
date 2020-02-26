@@ -48,6 +48,7 @@ const googleFonts = String.raw`
 <link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Cedarville+Cursive&display=swap" rel="stylesheet"><!-- Google Fonts - Cedarville Cursive -->
 <link href="https://fonts.googleapis.com/css?family=Krona+One&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,500,600,700,800,900&display=swap" rel="stylesheet">
 `;
 titleConst.insertAdjacentHTML('beforebegin', googleFonts);
 
