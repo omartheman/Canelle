@@ -62,3 +62,7 @@ for (let i = 0; i < sidebarLinksObj.length; i++) {
 			this.style.transform = 'scale(1)';
 	});
 };
+
+$('#navbar-hamburger').on('click', function(){
+	$('').slideDown();
+});
