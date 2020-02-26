@@ -64,5 +64,5 @@ for (let i = 0; i < sidebarLinksObj.length; i++) {
 };
 
 $('#navbar-hamburger').on('click', function(){
-	$('').slideDown();
+	$('#mobile-navigation-main-content').slideToggle();
 });
