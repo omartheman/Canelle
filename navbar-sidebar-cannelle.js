@@ -32,13 +32,11 @@ bodyConst.insertAdjacentHTML('afterbegin', strNavSideBar);
 //Following code inserts hamburger on each page
 const mainConst = document.querySelector('main');
 const hamburger = String.raw`	
-		<a id="navbar-hamburger-a-tag" href="mobile-navigation-page.html">
-			<div id="navbar-hamburger" onclick="hamburgerSwirl(), hamburgerClone(), hamburgerDropdown()"> 
-				<div class="navbar-hamburger-bun"></div>
-				<div class="navbar-hamburger-bun"></div>
-				<div class="navbar-hamburger-bun"></div>
-			</div>
-		</a>
+		<div id="navbar-hamburger" onclick="hamburgerSwirl(), hamburgerClone(), hamburgerDropdown()"> 
+			<div class="navbar-hamburger-bun"></div>
+			<div class="navbar-hamburger-bun"></div>
+			<div class="navbar-hamburger-bun"></div>
+		</div>
 `;
 mainConst.insertAdjacentHTML('beforeend', hamburger);
 	

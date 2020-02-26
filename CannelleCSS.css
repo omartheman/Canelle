@@ -719,13 +719,6 @@ noscript {
     top: auto;
   transform: scale(0.9);
 }
-#navbar-hamburger-a-tag {
-  height: 0px;
-    width: 0px;
-  position: absolute;
-    left: -10000px;
-    top: auto;
-}
 .navbar-hamburger-bun {
   animation: bun-spin 1s 1;
   animation-play-state: paused;
