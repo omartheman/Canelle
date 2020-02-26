@@ -40,7 +40,7 @@ bodyConst.insertAdjacentHTML('afterbegin', strNavSideBar);
 //Following code inserts hamburger on each page
 const mainConst = document.querySelector('main');
 const hamburger = String.raw`	
-		<div id="navbar-hamburger> 
+		<div id="navbar-hamburger"> 
 			<div class="navbar-hamburger-bun"></div>
 			<div class="navbar-hamburger-bun"></div>
 			<div class="navbar-hamburger-bun"></div>
