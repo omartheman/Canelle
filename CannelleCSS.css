@@ -346,6 +346,7 @@ noscript {
   text-align: center;
   transform: scale(1.2, 1);
   margin: 0.4em;
+  
 }
 #homeFeatured {
   background-color: #e3397a;
@@ -1014,7 +1015,11 @@ noscript {
 .welcome-team-outer-div-for-margin {
   padding: 2em;
 }
-
+@media (min-width: calc())) {
+  #video-cannelle-3-min-div {
+    padding-bottom: 500px; 
+  }
+} 
 @media (max-width: 1280px) {
   .gridContainerGallery {
     grid-template-columns: 1fr 1fr 1fr 1fr;
