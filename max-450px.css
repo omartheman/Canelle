@@ -1,8 +1,14 @@
+.based-on-true-story-description {
+  width: 80%;
+}
 #footer {
   margin-left: 0;
   padding-left: 0;
   padding: 0 1em;
   word-wrap: break-word;
+}
+.h2--size-450 {
+  font-size: var(--header-font-size-450);
 }
 .home-link-featured{
   height: 0px;

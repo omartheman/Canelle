@@ -344,9 +344,7 @@ noscript {
   font-weight: 800;
   letter-spacing: 0.05em;
   text-align: center;
-  transform: scale(1.2, 1);
   margin: 0.4em;
-  
 }
 #homeFeatured {
   background-color: #e3397a;
@@ -821,19 +819,18 @@ noscript {
 #self-portrait {
   border: 2px solid var(--image-border-color);
   display: block;
-  width: 20em;
-  ;
   margin: auto;
 }
 #self-portrait-figure figcaption {
   font-size: 3em;
   font-family: var(--header-font);
+  font-weight: bold;
   text-align: center;
   margin-bottom: 0.3em;
   margin-top: 2em;
 }
 #self-portrait-figure img {
-  width: 50vw;
+  width: 35vw;
     max-width: 100%;
 }
 #sidebar-2 {
