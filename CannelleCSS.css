@@ -80,7 +80,7 @@ noscript {
   text-indent: 4em;
   width: 60vw;
 }
-.based-on-true-story-title {
+.homepage-figure--heading {
   color: white;
   font-size: 3em;
   font-family: var(--header-font);
@@ -118,8 +118,8 @@ noscript {
   border: 2px solid var(--image-border-color);
   border-radius: 0.5em;
   margin: auto;
+  max-width: 100%;
   width: 40em;
-    max-width: 100%;
 }
 .container-2-outer-div {
   background-color: white;
@@ -1049,9 +1049,8 @@ noscript {
   border: 2px solid var(--image-border-color);
   border-radius: 0.5em;
   margin: 2em auto;
-  width: 40em;
   max-width: 100%;
-
+  width: 40em;
 }
 @media (min-width: calc()) {
   #video-cannelle-3-min-div {
@@ -1059,8 +1058,12 @@ noscript {
   }
 } 
 @media (max-width: 1280px) {
-  .gridContainerGallery {
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+  .container-1-outer-div {
+    width: auto;
+  }
+  .container-3 {
+    margin: 1em;
+    width: auto;
   }
 }
 @media (max-width: 1085px) {
