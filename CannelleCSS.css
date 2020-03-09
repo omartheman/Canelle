@@ -775,13 +775,6 @@ noscript {
 .indent {
   text-indent: 1em;
 }
-#omarAndMarisa {
-  width: 300px;
-  border-width: 6px;
-  border-color: black;
-  border-style: solid;
-  border-radius: 4%;
-}
 #or {
   margin-left: 10px;
 }
@@ -812,6 +805,9 @@ noscript {
   }
 .paypal-donate-and-cannelle-div {
   margin: auto;
+}
+.paypal-form__header {
+  text-align: center; 
 }
 .photoIndexGridCell {
   color: white;
@@ -987,7 +983,7 @@ noscript {
   max-width: 60rem;
   overflow: hidden;
   position: relative;
-  padding-bottom: 56.25%;
+  padding-bottom: 540px;;
   padding-top: 35px;
   /*max-width needed to be put in the container, and max-height in the iframe, for the iframe to properly center on the page*/
 }
@@ -1062,6 +1058,9 @@ noscript {
   .container-3 {
     margin: 1em;
     width: auto;
+  }
+  #video-cannelle-3-min-div {
+    padding-bottom: 50.25%;
   }
 }
 @media (max-width: 1085px) {
