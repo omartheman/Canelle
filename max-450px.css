@@ -4,6 +4,13 @@
   text-indent: 1.5em;
   width: 80%;
 }
+.container-1 {
+  padding: 0;
+  width: 90%;
+}
+.container-2 {
+  width: 65%;
+}
 .container-3 {
   padding: 0em 1em;
   background-color: var(--sidebar-background-color);
@@ -84,6 +91,9 @@
   text-align: center;
   margin: 0.4em;
 }
+.intro-text--subtext {
+  text-align: justify;
+}
 .lit-articles-lit-gallery /*selector here same as original; just used for reference*/ {
   margin: 0.5em;
   padding: 1em;
@@ -132,6 +142,10 @@
   background-color: mediumseagreen; 
   border-radius: var(--article-border-radius);
 }
+.links-i-like-text {
+  margin: 0 0.5em 0 1em;
+  padding: 0;
+}
 #main-content {
   margin-top: 0.4em;
   margin-left: 0;
@@ -143,6 +157,10 @@
   margin-top: 0;
   margin-left: 0;
   padding: 5px;
+}
+.merchant-reminder {
+  text-align: justify;
+  width: 80vw;
 }
 .font-size {
   font-size: 1.6em;
@@ -241,6 +259,15 @@
   height: 0px;
     width: 0px;
   visibility: hidden;
+}
+#thanks-people {
+  border-radius: 5px;
+  column-count: 1;
+  padding: 0;
+  width: 100%;
+}
+.thanks-to {
+  margin-left: 1em;
 }
 #welcome-story-pic {
   border-radius: 0px;
