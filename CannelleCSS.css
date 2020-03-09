@@ -733,6 +733,7 @@ noscript {
 }
   #navbar-mobile a {
     font-family: 'Josefin Sans', sans-serif;
+    text-decoration: none;
   }
 #navbar-mobile-featured {
   position: absolute;
@@ -1176,16 +1177,16 @@ noscript {
     position: static;
       left: 0;
   }
-  #navbar-mobile a {
-    display: flex;
-      justify-content: center;
-    padding: 1.6rem;
-    font-size: 1.7rem;
-    border-bottom: 3px solid #ebc034;
-  }
-  #navbar-mobile a:first-of-type {
-    border-top: 3px solid #ebc034;
-  }
+    #navbar-mobile a {
+      border-bottom: 3px solid #ebc034;
+      display: flex;
+        justify-content: center;
+      font-size: 1.7rem;
+      padding: 1.2rem;
+    }
+    #navbar-mobile a:first-of-type {
+      border-top: 3px solid #ebc034;
+    }
   #navbar-2-right {
     position: absolute;
     height: 0px;

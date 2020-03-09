@@ -189,17 +189,7 @@
   	width: 100%;
   position: static;
     left: 0;
-}
-#navbar-mobile a {
-  display: flex;
-    justify-content: center;
-  padding: 1.6rem;
-  font-size: 1.7rem;
-  border-bottom: 3px solid #ebc034;
-}
-#navbar-mobile a:first-of-type {
-  border-top: 3px solid #ebc034;
-}
+  }
 #navbar-mobile-featured {
   background-color: #e3397a;
   border-radius: 1em;
