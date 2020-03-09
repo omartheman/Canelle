@@ -190,19 +190,20 @@ noscript {
   text-align: center;
   color: white;
 }
-#ebook-h2-download {
+.ebook-h2-download {
   text-align: center;
   color: #211f76;
 }
-  #ebook-h2-download:hover {
+  .ebook-h2-download:hover {
     transform: scale(1.1);
   }
-  #ebook-h2-download a:visited {
+  .ebook-h2-download a:visited {
     text-decoration: none;
     color: #211f76;
     background-color: red;
   }
-#ebook-link {
+.ebook-link {
+  font-size: 1.6em;
   color: red;
 }
 #ebook-paypal-button-title {
@@ -236,6 +237,9 @@ noscript {
   margin-top: 0px;
   color: #451085;
   font-weight: 900;
+}
+.font-medium {
+  font-size:;
 }
 .font-1point2em {
   font-size: var(--font-1point2em);
