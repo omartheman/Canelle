@@ -860,6 +860,12 @@ noscript {
 .paypal-form__header {
   text-align: center; 
 }
+.paypal-form__table--container {
+  text-align: center; 
+}
+.paypal-form__table--container table{
+  display: inline-block;
+}
 .photoIndexGridCell {
   color: white;
   font-size: 1.1rem;
