@@ -121,6 +121,15 @@ noscript {
   width: 40em;
     max-width: 100%;
 }
+.container-2-outer-div {
+  background-color: white;
+  border: 2px solid var(--image-border-color);
+  border-radius: 0.5em;
+  margin: auto;
+  padding: 1em;
+  width: 40em;
+    max-width: 100%;
+}
 .container-1-outer-div-for-margin {
   padding: 2em;
 }
@@ -157,6 +166,12 @@ noscript {
 .ebook-download--subheading {
   display: block;
   font-size: 0.7em;
+}
+.ebook-first-page-paragraph-section {
+  margin-top: 3em;
+}
+.ebook-first-page--title {
+  text-align: center; 
 }
 .ebook-form--info {
   color: white; 
