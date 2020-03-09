@@ -230,6 +230,7 @@ noscript {
 }
 .ebook-heading--subheading {
   color: white;
+  font-family: 'Josefin Sans', sans-serif;
   margin-bottom: 2em;
   text-align: center;
 }
@@ -280,9 +281,6 @@ noscript {
   margin-top: 0px;
   color: #451085;
   font-weight: 900;
-}
-.font-medium {
-  font-size:;
 }
 .font-1point2em {
   font-size: var(--font-1point2em);
