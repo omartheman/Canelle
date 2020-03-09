@@ -1043,20 +1043,15 @@ noscript {
   height: auto;
   width: 60vw;
 }
-.welcome-team-inner-div {
-  border-radius: 10px;
+.container-3 {
   padding: 1.5em 7.5em;
-}
-.welcome-team-outer-div {
   background-color: var(--sidebar-background-color);
   border: 2px solid var(--image-border-color);
   border-radius: 0.5em;
-  margin: auto;
+  margin: 2em auto;
   width: 40em;
-    max-width: 100%;
-}
-.welcome-team-outer-div-for-margin {
-  padding: 2em;
+  max-width: 100%;
+
 }
 @media (min-width: calc()) {
   #video-cannelle-3-min-div {
