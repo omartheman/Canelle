@@ -139,10 +139,22 @@ noscript {
   width: 40em;
   margin: auto;
 }
-#ebook-h2 {
+.ebook-form--info {
+  color: white; 
+  text-align: center;
+}
+.ebook-form--width {
+  max-width: 100%;
+  width: 30em;
+}
+.ebook-heading {
   color: white;
   font-size: 2em;
   text-align: center;
+}
+.ebook-heading--subheading {
+  text-align: center;
+  color: white;
 }
 #ebook-h2-download {
   text-align: center;
@@ -747,23 +759,23 @@ noscript {
   display: block;
   margin: auto;
 }
-#paypal-donate-div {
+.paypal-donate-div {
   display: flex;
   margin-top: 1em;
   margin-bottom: 0em;
 }
-  #paypal-donate-div input {
+  .paypal-donate-div input {
     display: block;
     margin: auto;
     margin-top: 0.5em;
   }
-  #paypal-donate-div td {
+  .paypal-donate-div td {
     display: block;
     color: white;
     margin-bottom: 1em;
     text-align: center;
   }
-#paypal-donate-and-cannelle-div {
+.paypal-donate-and-cannelle-div {
   margin: auto;
 }
 .photoIndexGridCell {
@@ -1012,7 +1024,7 @@ noscript {
 .welcome-team-outer-div-for-margin {
   padding: 2em;
 }
-@media (min-width: calc())) {
+@media (min-width: calc()) {
   #video-cannelle-3-min-div {
     padding-bottom: 500px; 
   }
