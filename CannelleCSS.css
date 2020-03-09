@@ -125,7 +125,9 @@ noscript {
 }
 .container--coming-soon {
   color: white;
+  font-size: 1.6em;
   margin: 0 5vw 1.5em;
+  width: 80vw;
 }
 .container-1 {
   background-color: var(--sidebar-background-color);
@@ -1108,6 +1110,9 @@ noscript {
   }
 }
 @media (max-width: 700px) {
+  .container--coming-soon {
+    margin: auto; 
+  }
   .container-1 {
     width: 90%;
   }
