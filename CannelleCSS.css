@@ -229,8 +229,9 @@ noscript {
   text-align: center;
 }
 .ebook-heading--subheading {
-  text-align: center;
   color: white;
+  margin-bottom: 2em;
+  text-align: center;
 }
 .ebook-h2-download {
   text-align: center;
@@ -693,7 +694,7 @@ noscript {
 .merchant-reminder {
   color: #00ffca;
   margin: auto auto 1em;
-  width: 30vw;
+  width: 50vw;
 }
 .missionStatementHomepage {
   background-color: #e3397a;
