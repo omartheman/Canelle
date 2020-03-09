@@ -3,10 +3,6 @@ img, embed, object, video {
     max-width: 100%;
 }
 
-html {
-  width: 100%;
-}
-
 :root {
   --article-border-radius: 1em;
   --gold-border-color: #ebc034;
