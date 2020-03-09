@@ -18,13 +18,17 @@
 	<body>
 
 		<main id="main-content">
-			<div class="welcome-team-outer-div-for-margin"><!--  This div is here so that welcome-team-outer-div can have padding to create a margin, since using margin on welcome-team-outer-div creates horizontal scroll -->
-				<div class="welcome-team-outer-div">
+			<div class="container-1-outer-div-for-margin"><!--  This div is here so that welcome-team-outer-div can have padding to create a margin, since using margin on welcome-team-outer-div creates horizontal scroll -->
+				<div class="container-1-outer-div">
 					<h2 class="ebook-heading" class="textWhite welcome-font">Purchase the eBook!</h2>
-					<h2 class="ebook-heading">(English/French Dual Version)</h2>
+				</div> <!-- class="container-1-outer-div-->
+			</div> <!-- class="container-1-outer-div-for-margin-->
+			<div class="container-1-outer-div-for-margin"><!--  This div is here so that welcome-team-outer-div can have padding to create a margin, since using margin on welcome-team-outer-div creates horizontal scroll -->
+				<div class="container-1-outer-div">
+					<h2 class="ebook-heading">(English/French Dual Language Version):</h2>
 					<h3 class="ebook-heading--subheading">(French-only Version Below)</h3>
-				</div>
-			</div>
+				</div> <!-- class="container-1-outer-div-->
+			</div> <!-- class="container-1-outer-div-for-margin-->
 
 			<div class="paypal-donate-div">
 				<div class="paypal-donate-and-cannelle-div">
@@ -32,7 +36,7 @@
 						<input type="hidden" name="cmd" value="_s-xclick">
 						<input type="hidden" name="hosted_button_id" value="Y9E23LVJA4CFG">
 						<table>
-						<tr><td class="text-information ebook-form--info"><input type="hidden" name="on0" value="Cannelle la Demoiselle eBook English & French Dual Language">Cannelle la Demoiselle eBook English & French Dual Language</td></tr>
+						<tr><td class="text-information ebook-form--info"><input type="hidden" name="on0" value="Cannelle la Demoiselle eBook English & French Dual Language">Cannelle la Demoiselle eBook (English & French dual language version)</td></tr>
 						<tr><td><select name="os0">
 							<option value="eBook English & French">eBook English & French $4.00 USD</option>
 							<option value="eBook English & French + $4 donation =">eBook English & French + $4 donation = $8.00 USD</option>
@@ -47,14 +51,24 @@
 					</form>
 				</div> <!-- <div class="paypal-donate-and-cannelle-div"> -->
 			</div> <!-- <div class="paypal-donate-div"> -->
-			
+
+			<div class="merchant-reminder" class="text-information textWhite text-center margin-bottom-2em">
+				Make sure to click the "Return to Merchant" button in Paypal's portal, to be redirected to the download page. 
+			</div>
+
+			<div class="container-1-outer-div-for-margin"><!--  This div is here so that welcome-team-outer-div can have padding to create a margin, since using margin on welcome-team-outer-div creates horizontal scroll -->
+				<div class="container-1-outer-div">
+					<h2 class="ebook-heading">French-Only Version:</h2>
+				</div>
+			</div>
+
 			<div class="paypal-donate-div">
 				<div class="paypal-donate-and-cannelle-div">
 					<form class="ebook-form--width" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
 						<input type="hidden" name="cmd" value="_s-xclick">
 						<input type="hidden" name="hosted_button_id" value="SUF6AMPZ3D6SS">
 						<table>
-						<tr><td class="text-information ebook-form--info"><input type="hidden" name="on0" value="Cannelle la Demoiselle eBook">Cannelle la Demoiselle eBook (French-only Version)</td></tr><tr><td><select name="os0">
+						<tr><td class="text-information ebook-form--info"><input type="hidden" name="on0" value="Cannelle la Demoiselle eBook">Cannelle la Demoiselle eBook (French-only version)</td></tr><tr><td><select name="os0">
 							<option value="eBook =">eBook French = $4.00 USD</option>
 							<option value="eBook + $4 donation =">eBook French + $4 donation = $8.00 USD</option>
 							<option value="eBook + $8 donation =">eBook French + $8 donation = $12.00 USD</option>
@@ -69,7 +83,7 @@
 				</div> <!-- <div id="paypal-donate-and-cannelle-div"> -->
 			</div><!-- <div id="paypal-donate-div"> -->
 
-			<div id="merchant-reminder" class="text-information textWhite text-center margin-bottom-2em">
+			<div class="merchant-reminder" class="text-information textWhite text-center margin-bottom-2em">
 				Make sure to click the "Return to Merchant" button in Paypal's portal, to be redirected to the download page. 
 			</div>
 
