@@ -24,6 +24,7 @@ audio {
 }
 body {
   background-color: var(--site-background-color);
+  width: 100%;
   margin: 0;
 }
 button {
@@ -102,6 +103,7 @@ noscript {
   height: auto;
     width: 50em;
   margin: auto auto 4em auto;
+  max-width: 95%;
 }
 #coming-soon-ul li {
   margin-bottom: 0.8em;
@@ -915,10 +917,12 @@ noscript {
 .secured {
   right: 0;
 }
-#self-portrait {
+.self-portrait {
   border: 2px solid var(--image-border-color);
   display: block;
   margin: auto;
+  max-width: 95%;
+  width: 35vw;
 }
 #self-portrait-figure figcaption {
   font-family: var(--header-font);
@@ -926,8 +930,6 @@ noscript {
   text-align: center;
 }
 #self-portrait-figure img {
-  width: 35vw;
-    max-width: 100%;
 }
 #sidebar-2 {
   background-color: var(--sidebar-background-color);
@@ -1111,6 +1113,9 @@ noscript {
   }
 }
 @media (max-width: 700px) {
+  .based-on-true-story-description {
+    width: 80%;
+  }
   .container--coming-soon {
     margin: auto; 
   }

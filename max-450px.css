@@ -245,13 +245,15 @@
   display: block;
   height: auto;
   margin: auto;
-  width: 100%;
 }
 #self-portrait-figure {
   width: 100%;
 }
   #self-portrait-figure figcaption {
     font-size: var(--header-font-size-450);
+  }
+  #self-portrait figure img {
+    width: 95%;
   }
 #sidebar-2 {
   position: absolute;
