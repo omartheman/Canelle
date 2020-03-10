@@ -17,6 +17,7 @@ img, embed, object, video {
   --sidebar-background-color: #801C9B;
   --sidebar-background-color-2: #c153e0;
   --sidebar-links-color: #5ce4ff;
+  --sidebar-links-background-color: #3D199A;
   --image-border-color: #ebc034;
   --header-font: 'Roboto Slab', 'Cinzel', serif;
 }
@@ -945,7 +946,7 @@ noscript {
 #self-portrait-figure img {
 }
 #sidebar-2 {
-  background-color: var(--sidebar-background-color-2);
+  background-color: var(--sidebar-background-color);
   border-right: 3px solid #ebc034;
   height: 100%;
     width: var(--sidebar-width);
@@ -962,7 +963,8 @@ noscript {
 }
 #sidebar-links a {
   align-items: center;
-  background-color: var(--site-background-color);
+  background-color: var(--sidebar-links-background-color);
+  border: 3px solid #ebc034;
   border-radius: 0.6em;
   color: var(--sidebar-links-color);
   display: block;
