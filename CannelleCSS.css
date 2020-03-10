@@ -14,7 +14,8 @@ img, embed, object, video {
   --navbar-height-mobile: 3.2rem;
   --sidebar-width: 11rem;
   --site-background-color: #5422d4;
-  --sidebar-background-color: #c153e0;
+  --sidebar-background-color: #801C9B;
+  --sidebar-background-color-2: #c153e0;
   --sidebar-links-color: #5ce4ff;
   --image-border-color: #ebc034;
   --header-font: 'Roboto Slab', 'Cinzel', serif;
@@ -944,7 +945,7 @@ noscript {
 #self-portrait-figure img {
 }
 #sidebar-2 {
-  background-color: var(--sidebar-background-color);
+  background-color: var(--sidebar-background-color-2);
   border-right: 3px solid #ebc034;
   height: 100%;
     width: var(--sidebar-width);
