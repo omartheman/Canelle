@@ -176,6 +176,12 @@ noscript {
   max-width: 100%;
   width: 40rem;
 }
+.container-3__homepage-contact--email {
+ font-size: 1.5em; 
+}
+.container-3__homepage-contact--heading {
+ color: #5ce4ff; 
+}
 .container-3--paragraph-text {
   background-color: #f8fcff;
   border: 2px solid var(--image-border-color);
@@ -642,6 +648,14 @@ noscript {
 .links-i-like-titles a:visited {
   color: pink;
 }
+.link--omar {
+  color: white;
+  text-decoration: none;
+}
+.link--omar--web-designer {
+  color: #E0F1FF;
+  text-decoration: underline;
+}
 .linkUnderHomeLink{
   clear: both;
   margin-top: 5px;
@@ -1039,7 +1053,7 @@ noscript {
   text-indent: 2em;
 }
 .text-small {
-  font-size: 0.6em;
+  font-size: 0.9em;
 }
 #thanks-people {
   background-color: #671e7c;
@@ -1128,7 +1142,10 @@ noscript {
   }
   .container-3 {
     margin: 1em;
+    padding: 1em 2em;
     width: auto;
+  }
+  .container-3--team {
   }
   #video-cannelle-3-min-div {
     padding-bottom: 50.25%;
@@ -1321,7 +1338,15 @@ noscript {
     padding: 1.5em 2.5em;
   }
 }
+@media (max-width: 500px) {
+  .container-3 {
+    font-size: 0.8em;
+  }
+}
 @media (max-width: 400px) {
+  .container-3--homepage-contact {
+    font-size: 0.8em;    
+  }
   #sidebar-2 {
     position: absolute;
     height: 0px;

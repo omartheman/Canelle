@@ -12,13 +12,19 @@
   width: 65%;
 }
 .container-3 {
-  padding: 0em 1em;
+  padding: 1.5em 1em;
   background-color: var(--sidebar-background-color);
   border: 2px solid var(--image-border-color);
   border-radius: 0.5em;
   margin: 2em 0.4em;
   max-width: 100%;
   width: auto;
+}
+.container-3__line--team {
+  text-indent: 0;
+}
+.container-3__line--copyright {
+  font-size: 0.8em;
 }
 #footer {
   margin-left: 0;
