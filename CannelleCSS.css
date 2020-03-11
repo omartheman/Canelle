@@ -183,11 +183,11 @@ noscript {
   font: 1.5em 'Josefin Sans', sans-serif;
   line-height: 1.3em;
   margin: auto;
+  max-width: 100%;
   padding: 1em;
-  width: 60vw;
+  width: 50rem;
 }
 .container-3--paragraph-text__body {
-  column-count: 2;
   column-gap: 2em;
   padding: 1em 1em 0.5em;
   text-indent: 3em;
@@ -1141,6 +1141,9 @@ noscript {
   }
   .container-2 {
     width: 50vw;
+  }
+  .container-3--paragraph-text {
+    width: calc(100% - 4em);
   }
 }
 @media (max-width: 850px) {
