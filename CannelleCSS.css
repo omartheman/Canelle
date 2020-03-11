@@ -168,13 +168,13 @@ noscript {
   padding: 2em;
 }
 .container-3 {
-  padding: 1.5em 7.5em;
+  padding: 1.5rem 7.5rem;
   background-color: var(--sidebar-background-color);
   border: 2px solid var(--image-border-color);
   border-radius: 0.5em;
   margin: 2em auto;
   max-width: 100%;
-  width: 40em;
+  width: 40rem;
 }
 .container-3--paragraph-text {
   background-color: #f8fcff;
