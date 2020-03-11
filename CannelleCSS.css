@@ -1,8 +1,6 @@
-
 img, embed, object, video {
     max-width: 100%;
 }
-
 :root {
   --article-border-radius: 1em;
   --gold-border-color: #ebc034;
@@ -78,20 +76,13 @@ noscript {
   background-color: #f8fcff;
   border: 2px solid var(--image-border-color);
   color: black;
+  column-count: 2;
   font: 1.5em 'Josefin Sans', sans-serif;
   line-height: 1.3em;
   margin: auto;
   padding: 1em;
   text-indent: 4em;
   width: 60vw;
-}
-.homepage-figure--heading {
-  color: white;
-  font-size: 3em;
-  font-family: var(--header-font);
-  text-align: center;
-  margin-bottom: 0.3em;
-  margin-top: 2em;
 }
 .based-on-true-story-image {
   display: block;
@@ -184,6 +175,22 @@ noscript {
   margin: 2em auto;
   max-width: 100%;
   width: 40em;
+}
+.container-3--paragraph-text {
+  background-color: #f8fcff;
+  border: 2px solid var(--image-border-color);
+  color: black;
+  font: 1.5em 'Josefin Sans', sans-serif;
+  line-height: 1.3em;
+  margin: auto;
+  padding: 1em;
+  width: 60vw;
+}
+.container-3--paragraph-text__body {
+  column-count: 2;
+  column-gap: 2em;
+  padding: 1em 1em 0.5em;
+  text-indent: 3em;
 }
 .create-account {
   color: black;
@@ -290,6 +297,9 @@ noscript {
   margin-top: 0px;
   color: #451085;
   font-weight: 900;
+}
+.figure__heading--small {
+  font-size: 2em;
 }
 .font-1point2em {
   font-size: var(--font-1point2em);
@@ -410,16 +420,15 @@ noscript {
 .heading--font-medium {
   font-size: 2em;
 }
+.heading--small {
+  color: #5ce4ff;
+  font-size: 1.5em;
+}
 .home-img-1 {
   border-radius: 0.6em;
   height: 18em;
   object-fit: contain;
   margin: 0.8em;
-}
-#homepageGetReadyToGetRowdy {
-  padding: 10px;
-  text-align: center;
-  /*Floating to the left allows wolf logo to sit level with bottom of navbar.*/
 }
 #homepageLogin {
   background-color: #e3397a;
@@ -433,6 +442,14 @@ noscript {
 #homepage-content-div {
   display: flex;
   flex-wrap: wrap;
+}
+.homepage-figure--heading {
+  color: white;
+  font-size: 3em;
+  font-family: var(--header-font);
+  text-align: center;
+  margin-bottom: 0.3em;
+  margin-top: 2em;
 }
 #homepage-intro-text {
   margin: 2em;
@@ -580,8 +597,9 @@ noscript {
   margin: 10px;
 }
 .indent {
-  overflow-wrap: break-word;
   color: blue;
+  overflow-wrap: break-word;
+  text-indent: 1em;
 }
 #largeLetterMissionStatement {
   font-size: 2em;
@@ -826,16 +844,9 @@ noscript {
   height: 5px;
     width: 35px;
 }
-  @keyframes bun-spin {
-    50% {
-      transform: rotate(180deg) scale(0.2);
-    }
-  }
-.indent {
-  text-indent: 1em;
-}
 .omarshishani-link {
   font-size: 1.5em;
+  overflow-wrap: break-word;
   text-indent: 5em;
 }
   .omarshishani-link a {
@@ -931,19 +942,18 @@ noscript {
 .secured {
   right: 0;
 }
-.self-portrait {
+.self-portrait--img {
   border: 2px solid var(--image-border-color);
   display: block;
   margin: auto;
   max-width: 95%;
-  width: 35vw;
+  width: 20rem;
 }
 #self-portrait-figure figcaption {
+  margin-top: 2em;
   font-family: var(--header-font);
   font-weight: bold;
   text-align: center;
-}
-#self-portrait-figure img {
 }
 #sidebar-2 {
   background-color: var(--sidebar-background-color);
@@ -1021,6 +1031,12 @@ noscript {
 .textB {
   color: #ebc034;
   font-family: 'Josefin Sans', sans-serif;
+}
+.text-short-info {
+  color: white; 
+  font-size: 1.5em;
+  overflow-wrap: break-word;
+  text-indent: 2em;
 }
 .text-small {
   font-size: 0.6em;
@@ -1127,6 +1143,9 @@ noscript {
     width: 50vw;
   }
 }
+@media (max-width: 850px) {
+  
+}
 @media (max-width: 700px) {
   .based-on-true-story-description {
     width: 80%;
@@ -1139,6 +1158,9 @@ noscript {
   }
   .container-2 {
     width: 75%;
+  }
+  .container-3--paragraph-text {
+    width: 80%;
   }
   #footer {
     background-color: var(--sidebar-background-color); 
@@ -1302,5 +1324,10 @@ noscript {
     height: 0px;
       width: 0px;
     visibility: hidden;
+  }
+}
+@keyframes bun-spin {
+  50% {
+    transform: rotate(180deg) scale(0.2);
   }
 }
