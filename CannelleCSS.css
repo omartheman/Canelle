@@ -96,7 +96,7 @@ noscript {
   border: 2px solid var(--image-border-color);
   display: block;
   height: auto;
-    width: 50em;
+    width: 40rem;
   margin: auto auto 4em auto;
   max-width: 95%;
 }
@@ -174,7 +174,7 @@ noscript {
   border-radius: 0.5rem;
   margin: 2rem auto;
   max-width: 100%;
-  width: 40rem;
+  width: 30rem;
 }
 .container-3__homepage-contact--email {
  font-size: 1.5em; 
@@ -182,6 +182,9 @@ noscript {
 .container-3__homepage-contact--heading {
  color: #5ce4ff; 
 }
+.container-3__line--copyright {
+  text-align: center;
+} 
 .container-3--paragraph-text {
   background-color: #f8fcff;
   border: 2px solid var(--image-border-color);
@@ -191,7 +194,7 @@ noscript {
   margin: auto;
   max-width: 100%;
   padding: 1em;
-  width: 50rem;
+  width: 45rem;
 }
 .container-3--paragraph-text__body {
   column-gap: 2em;
@@ -647,14 +650,6 @@ noscript {
 }
 .links-i-like-titles a:visited {
   color: pink;
-}
-.link--omar {
-  color: white;
-  text-decoration: none;
-}
-.link--omar--web-designer {
-  color: #E0F1FF;
-  text-decoration: underline;
 }
 .linkUnderHomeLink{
   clear: both;
@@ -1140,11 +1135,6 @@ noscript {
   .container-1-outer-div {
     width: auto;
   }
-  .container-3 {
-    margin: 1rem;
-    padding: 1rem 2rem;
-    width: auto;
-  }
   #video-cannelle-3-min-div {
     padding-bottom: 50.25%;
   }
@@ -1157,12 +1147,21 @@ noscript {
   .container-2 {
     width: 50vw;
   }
+  .container-3 {
+    width: 50%; 
+  }
   .container-3--paragraph-text {
     width: calc(100% - 4em);
   }
+  .container-3--welcome-end {
+    padding: 3rem;
+  }
 }
-@media (max-width: 850px) {
-  
+@media (max-width: 950px) {
+  .container-3--welcome-end {
+    padding: 1rem;
+    width: 80%;
+  }
 }
 @media (max-width: 700px) {
   .based-on-true-story-description {

@@ -1,6 +1,10 @@
 \pictures
 English-french version-book.1
 videos
+*.docx
+*.pdf
+\content-for-site
+
 \important files
 \pictures-not-for-site
 \web-ready-pics
