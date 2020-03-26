@@ -18,6 +18,7 @@ img, embed, object, video {
   --sidebar-links-background-color: #3D199A;
   --image-border-color: #ebc034;
   --header-font: 'Roboto Slab', 'Cinzel', serif;
+  font-size: 16px;
 }
 audio {
   width: 200px;
@@ -26,6 +27,7 @@ body {
   background-color: var(--site-background-color);
   color: white;
   font-family: 'Josefin-sans', sans-serif;
+  font-size: 1.5 rem;
   margin: 0;
   width: 100%;
 }
@@ -243,6 +245,7 @@ noscript {
 }
 .ebook-form--info {
   color: white; 
+  font-size: 1.4rem;
   text-align: center;
 }
 .ebook-form {
@@ -324,9 +327,6 @@ noscript {
 }
 #footer {
   background-color: var(--sidebar-background-color); 
-  display: flex;
-    align-items: center;
-    justify-content: space-between;
   height: var(--footer-height);
   margin-left: var(--sidebar-width);
   padding-left: 4vw;
@@ -727,6 +727,7 @@ noscript {
 }
 .merchant-reminder {
   color: #00ffca;
+  font-size: 1.4rem;
   margin: auto auto 1em;
   width: 50vw;
 }
