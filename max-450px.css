@@ -26,6 +26,18 @@
 .container-3__line--copyright {
   font-size: 0.8rem;
 }
+
+.container-3--paragraph-text { 
+  border-radius: 0;
+  border: none;
+  font-size: 1.3rem;
+  margin: 0;
+  padding: 1rem 0.5rem;
+  width: calc(100% - 1rem);
+}
+.container-3--paragraph-text--bios {
+  margin-bottom: 3rem;
+}
 #footer {
   margin-left: 0;
   word-wrap: break-word;
