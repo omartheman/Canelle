@@ -1,7 +1,7 @@
 .based-on-true-story-description {
-  font-size: 1.3em;
+  font-size: 1.3rem;
   text-align: justify; 
-  text-indent: 1.5em;
+  text-indent: 1.5rem;
   width: 80%;
 }
 .container-1 {
@@ -12,11 +12,11 @@
   width: 65%;
 }
 .container-3 {
-  padding: 1.5em 1em;
+  padding: 1.5rem 1rem;
   background-color: var(--sidebar-background-color);
   border: 2px solid var(--image-border-color);
-  border-radius: 0.5em;
-  margin: 2em 0.4em;
+  border-radius: 0.5rem;
+  margin: 2rem 0.4rem;
   max-width: 100%;
   width: auto;
 }
@@ -24,12 +24,10 @@
   text-indent: 0;
 }
 .container-3__line--copyright {
-  font-size: 0.8em;
+  font-size: 0.8rem;
 }
 #footer {
   margin-left: 0;
-  padding-left: 0;
-  padding: 0 1em;
   word-wrap: break-word;
 }
 .h2--size-450 {
@@ -46,7 +44,7 @@
   position: static;
     left: auto;
   height: auto;
-    width: 2em;
+    width: 2rem;
 }
 #home-icon-button-container {
   position: static;
@@ -64,11 +62,11 @@
   border-left:none;
   border-radius: 0;
   color: white;
-  margin: 0.3em 0 0 0;
+  margin: 0.3rem 0 0 0;
   position: static;
     left: 0;
     top: 0;
-  padding: 0.5em;
+  padding: 0.5rem;
   visibility: visible;
   width: max-content;
 }
@@ -82,7 +80,7 @@
     display: block;
   height: auto;
   object-fit: contain;
-  margin: 0 0 1.5em 0;
+  margin: 0 0 1.5rem 0;
   width: 100vw;
   background-color: blue;
 }
@@ -95,46 +93,46 @@
   font-family: var(--header-font);
   font-size: var(--header-font-size-450);
   text-align: center;
-  margin: 0.4em;
+  margin: 0.4rem;
 }
 .intro-text--subtext {
   text-align: justify;
 }
 .lit-articles-lit-gallery /*selector here same as original; just used for reference*/ {
-  margin: 0.5em;
-  padding: 1em;
+  margin: 0.5rem;
+  padding: 1rem;
 }
 .lit-title {
-  font-size: 1.4em;
+  font-size: 1.4rem;
   font-weight: 800;
 }
 .lit-title-1-LP /*LP stands for 'Literature Page'*/ {
-  margin-right: 1.5em;
+  margin-right: 1.5rem;
   text-align: right;
 }
 .lit-title-3-LP {
-  margin-right: 2em;
+  margin-right: 2rem;
   text-align: right;
 }
 #lit-article-1 {
   border-radius: var(--article-border-radius);
   width: 100%;
-    height: 8em;
+    height: 8rem;
 }
 #lit-article-2 {
   margin-left: auto;
-  margin-right: 0.5em;
+  margin-right: 0.5rem;
   width: 80%;
-    height: 9em;
+    height: 9rem;
   background-color: #69a852;
   border-radius: var(--article-border-radius);
 }
 #lit-article-3 {
   background-color: #52a87a;
   border-radius: var(--article-border-radius);
-  margin-left: 1.3em;
+  margin-left: 1.3rem;
   width: 75%;
-    height: 16em;
+    height: 16rem;
 }
 #lit-article-4 {
   width: 300px;
@@ -149,11 +147,11 @@
   border-radius: var(--article-border-radius);
 }
 .links-i-like-text {
-  margin: 0 0.5em 0 1em;
+  margin: 0 0.5rem 0 1rem;
   padding: 0;
 }
 #main-content {
-  margin-top: 0.4em;
+  margin-top: 0.4rem;
   margin-left: 0;
   padding: 0px;
 }
@@ -169,7 +167,7 @@
   width: 80vw;
 }
 .font-size {
-  font-size: 1.6em;
+  font-size: 1.6rem;
 }
 #navbar-2 {
   background-color: #f07fe6; 
@@ -216,8 +214,8 @@
   }
 #navbar-mobile-featured {
   background-color: #e3397a;
-  border-radius: 1em;
-  border: 0.1em solid #ebc034;
+  border-radius: 1rem;
+  border: 0.1rem solid #ebc034;
   height: max-content;
     width: 90vw;
 
@@ -235,13 +233,13 @@
 }
 .proverb-divs {
   color: white;
-  margin-bottom: 1.5em;
+  margin-bottom: 1.5rem;
   margin-left: 0;
   margin-right: 0;
   width: 100%;
 }
 #proverb-div-main {
-  font-size: 1.6em;
+  font-size: 1.6rem;
   max-width: 100%;
   margin: auto 10vw;
   width: auto;
@@ -275,7 +273,7 @@
   width: 100%;
 }
 .thanks-to {
-  margin-left: 1em;
+  margin-left: 1rem;
 }
 #welcome-story-pic {
   border-radius: 0px;
@@ -292,10 +290,10 @@
   font-size: var(--header-font-size-450);
   font-family: var(--header-font);
   text-align: center;
-  margin-bottom: 0.3em;
-  margin-top: 2em;
+  margin-bottom: 0.3rem;
+  margin-top: 2rem;
 }
 
 :root {
-  --header-font-size-450: 2em;
+  --header-font-size-450: 2rem;
 }

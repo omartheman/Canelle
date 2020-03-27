@@ -2,11 +2,11 @@ img, embed, object, video {
     max-width: 100%;
 }
 :root {
-  --article-border-radius: 1em;
+  --article-border-radius: 1rem;
   --gold-border-color: #ebc034;
-  --french-proverbs-font-size: 1.6em;
-  --font-1point2em: 1.2em;
-  --footer-height: 5rem;
+  --french-proverbs-font-size: 1.6rem;
+  --font-1point2em: 1.2rem;
+  --footer-height: 10rem;
   --gold-border: 3px solid #ebc034;
   --navbar-height: 3.9rem;
   --navbar-height-mobile: 3.2rem;
@@ -27,7 +27,7 @@ body {
   background-color: var(--site-background-color);
   color: white;
   font-family: 'Josefin-sans', sans-serif;
-  font-size: 1.5 rem;
+  font-size: 1.3rem;
   margin: 0;
   width: 100%;
 }
@@ -68,7 +68,7 @@ noscript {
   color: white;
   display: block;
   font-family: Ariel, sans-serif;
-  font-size: 1.4em;
+  font-size: 1.4rem;
   padding: 1rem;
   position: fixed;
   text-align: center;
@@ -79,40 +79,40 @@ noscript {
   border: 2px solid var(--image-border-color);
   color: black;
   column-count: 2;
-  font: 1.5em 'Josefin Sans', sans-serif;
-  line-height: 1.3em;
+  font: 1.5rem 'Josefin Sans', sans-serif;
+  line-height: 1.3rem;
   margin: auto;
-  padding: 1em;
-  text-indent: 4em;
+  padding: 1rem;
+  text-indent: 4rem;
   width: 60vw;
 }
 .based-on-true-story-image {
   display: block;
-  margin: 1em auto auto;
+  margin: 1rem auto auto;
 }
 .book-purchase-text-inner-div{
   border-radius: 10px;
-  padding: 1em 0;
+  padding: 1rem 0;
 }
 #cannelle-cover-homepage-pic {
   border: 2px solid var(--image-border-color);
   display: block;
   height: auto;
     width: 40rem;
-  margin: auto auto 4em auto;
+  margin: auto auto 4rem auto;
   max-width: 95%;
 }
 #coming-soon-ul li {
-  margin-bottom: 0.8em;
+  margin-bottom: 0.8rem;
 }
 .contact-email {
-  font-size: 1.3em;
+  font-size: 1.3rem;
   color: white;
   font-family: 'Josefin Sans', sans-serif;
   word-wrap: break-word;
 }
 .contact-email--black {
-  font-size: 1em;
+  font-size: 1rem;
   color: black;
 }
 #contact-paragraph {
@@ -120,39 +120,39 @@ noscript {
 }
 .container--coming-soon {
   color: white;
-  font-size: 1.6em;
-  margin: 0 5vw 1.5em;
+  font-size: 1.6rem;
+  margin: 0 5vw 1.5rem;
   width: 80vw;
 }
 .container-1 {
   background-color: var(--sidebar-background-color);
   border: 2px solid var(--image-border-color);
-  border-radius: 0.5em;
-  margin: auto auto 1em;
+  border-radius: 0.5rem;
+  margin: auto auto 1rem;
   max-width: 100%;
-  padding: 1.5em 7.5em;
-  width: 40em;
+  padding: 1.5rem 7.5rem;
+  width: 40rem;
 }
 .container-1-inner-div {
   border-radius: 10px;
-  padding: 1.5em 7.5em;
+  padding: 1.5rem 7.5rem;
 }
 .container-1-outer-div {
   background-color: var(--sidebar-background-color);
   border: 2px solid var(--image-border-color);
-  border-radius: 0.5em;
+  border-radius: 0.5rem;
   margin: auto;
   max-width: 100%;
-  width: 40em;
+  width: 40rem;
 }
 .container-2 {
   background-color: white;
   border: 2px solid var(--image-border-color);
-  border-radius: 0.5em;
+  border-radius: 0.5rem;
   margin: auto;
   max-width: 100%;
-  padding: 2em;
-  width: 40em;
+  padding: 2rem;
+  width: 40rem;
 }
 .container-2--ebook-text {
   color: black;
@@ -160,14 +160,14 @@ noscript {
 .container-2-outer-div {
   background-color: white;
   border: 2px solid var(--image-border-color);
-  border-radius: 0.5em;
+  border-radius: 0.5rem;
   margin: auto;
   max-width: 100%;
-  padding: 1em;
-  width: 40em;
+  padding: 1rem;
+  width: 40rem;
 }
 .container-1-outer-div-for-margin {
-  padding: 2em;
+  padding: 2rem;
 }
 .container-3 {
   padding: 1.5rem 7.5rem;
@@ -179,7 +179,7 @@ noscript {
   width: 30rem;
 }
 .container-3__homepage-contact--email {
- font-size: 1.5em; 
+ font-size: 1.5rem; 
 }
 .container-3__homepage-contact--heading {
  color: #5ce4ff; 
@@ -190,18 +190,22 @@ noscript {
 .container-3--paragraph-text {
   background-color: #f8fcff;
   border: 2px solid var(--image-border-color);
+  border-radius: 1rem;
   color: black;
-  font: 1.5em 'Josefin Sans', sans-serif;
-  line-height: 1.3em;
+  font: 1.5rem 'Josefin Sans', sans-serif;
+  line-height: 2rem;
   margin: auto;
   max-width: 100%;
-  padding: 1em;
+  padding: 1rem 3rem;
   width: 45rem;
 }
+.container-3--paragraph-text--bios {
+  margin-bottom: 2rem;
+}
 .container-3--paragraph-text__body {
-  column-gap: 2em;
-  padding: 1em 1em 0.5em;
-  text-indent: 3em;
+  column-gap: 2rem;
+  padding: 1rem 1rem 0.5rem;
+  text-indent: 3rem;
 }
 .create-account {
   color: black;
@@ -225,20 +229,20 @@ noscript {
   padding: 10px;
 }
 #ebook-div {
-  margin: 2em;
+  margin: 2rem;
 }
 #ebook-donate-pic img {
   border-radius: 10px;
   display: block;
-  width: 40em;
+  width: 40rem;
   margin: auto;
 }
 .ebook-download--subheading {
   display: block;
-  font-size: 0.7em;
+  font-size: 1.4rem;
 }
 .ebook-first-page-paragraph-section {
-  margin-top: 3em;
+  margin-top: 3rem;
 }
 .ebook-first-page--title {
   text-align: center; 
@@ -253,13 +257,13 @@ noscript {
 }
 .ebook-heading {
   color: white;
-  font-size: 2em;
+  font-size: 2rem;
   text-align: center;
 }
 .ebook-heading--subheading {
   color: white;
   font-family: 'Josefin Sans', sans-serif;
-  margin-bottom: 2em;
+  margin-bottom: 2rem;
   text-align: center;
 }
 .ebook-h2-download {
@@ -272,16 +276,16 @@ noscript {
   .ebook-h2-download a:visited {
     text-decoration: none;
     color: #211f76;
-    background-color: red;
+    background-color: rgb(255, 187, 0);
   }
 .ebook-link {
-  font-size: 1.6em;
-  color: red;
+  font-size: 2rem;
+  color: rgb(255, 187, 0);
 }
 #ebook-paypal-button-title {
   background-color: var(--sidebar-background-color);
-  border-radius: 0.5em;
-  padding: 0.7em;
+  border-radius: 0.5rem;
+  padding: 0.7rem;
 }
 #featured-artist-name {
   display: block;
@@ -289,8 +293,8 @@ noscript {
 #featured-artist-subtext {
   color: #e61e1e;
   display: block;
-  font-size: 0.9em;
-  margin-bottom: 0.2em;
+  font-size: 0.9rem;
+  margin-bottom: 0.2rem;
 }
 .featured-artist-img {
   height: 60vh;
@@ -298,11 +302,11 @@ noscript {
 .featured-artist-img-div {
   display: flex;
   justify-content: center;
-  margin-bottom: 1em;
+  margin-bottom: 1rem;
 }
 #featured-heading {
-  font-size: 1.65em;
-  padding: 0.3em 0 0 0;
+  font-size: 1.65rem;
+  padding: 0.3rem 0 0 0;
   text-align: center;
 }
 #featuredTitle {
@@ -311,7 +315,7 @@ noscript {
   font-weight: 900;
 }
 .figure__heading--small {
-  font-size: 2em;
+  font-size: 2rem;
 }
 .font-1point2em {
   font-size: var(--font-1point2em);
@@ -322,13 +326,17 @@ noscript {
 .fontCormorantGaramond {
   font-family: 'Cormorant Garamond', serif;
   color: white;
-  font-size: 3em;
+  font-size: 3rem;
   text-align: center;
 }
 #footer {
+  display: flex;
+  align-items: center;
   background-color: var(--sidebar-background-color); 
   height: var(--footer-height);
+  line-break: anywhere;
   margin-left: var(--sidebar-width);
+  padding: 1rem;
   padding-left: 4vw;
   position: static;
     bottom: 0;
@@ -337,107 +345,47 @@ noscript {
 #footer span {
   word-break: break-all;
 }
+.footer__contact-wrap {
+  color: turquoise;
+}
+.footer__links {
+  color: white;
+}
+.footer__links-wrapper {
+  margin-bottom: 1.3rem;
+}
 .galleryWidth {
   width: 20%;
   float: left;
 }
-#ginger {
-  width: 400px;
-  margin: 10px;
-  float: right;
-}
-.gridContainerHome {
-  height: 90vh;
-  /*Height sets total grid area height, and creates more space between rows when it is increased.*/
-  margin: 2rem;
-  /*This margin sets space between grid container and surrounding elements.*/
-  display: grid;
-  grid-gap: 10px;
-  grid-template-columns: auto auto auto;
-  grid-template-rows: repeat(3, 1fr);
-}
-.gridContainerGallery {
-  height: 90vh;
-  /*Height sets total grid area height, and creates more space between rows when it is increased.*/
-  margin: 2rem;
-  /*This margin sets space between grid container and surrounding elements.*/
-  display: grid;
-  grid-gap: 10px;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
-}
-  /*Following are indented because they relate to .homeGridContainer (for organization of the CSS)*/
-  .cell img {
-    display: inline-block;
-    height: 90%;
-    vertical-align: -180px;
-  }
-  .cell span {
-    display: inline-block;
-    margin-bottom: 5px;
-  }
-  .cell{
-    color: white;
-    text-align: center;
-    padding: 1rem;
-    width: 220px;
-    height: 220px;
-    /*Width makes background show outside of image.*/
-    /*Width of cell changes size of whole grid. Width for .homeGridContainer seems to do nothing.*/
-    /*Width of cell allowed whole grid to not go all the way to the right edge*/
-    
-  }
-  .cell-1 {
-    background: maroon;
-  }
-  .cell-2 {
-    background: pink;
-  }
-  .cell-3 {
-    background: maroon;
-  }
-  .cell-4 {
-    background: blue;
-  }
-  .cell-5 {
-    background: transparent;
-  }
-  .cell-6 {
-    background: transparent;
-  }
-  .cell-7 {
-    background: transparent;
-  }
-  .cell-8 {
-    background: transparent;
-  }
-  .cell-9 {
-    background: transparent;
-  }
 .h2-title {
   color: #02ffe9;
   text-align: center;
-  font-size: 1.2em;
+  font-size: 1.2rem;
 }
 .h3-title {
-  font-size: 1em;
+  font-size: 1rem;
 }
 .heading--coming-soon {
   color: #ffe40d;
   text-align: center; 
 }
 .heading--font-medium {
-  font-size: 2em;
+  font-size: 2rem;
 }
 .heading--small {
   color: #5ce4ff;
-  font-size: 1.5em;
+  font-size: 1.5rem;
+}
+.heading-1 {
+  color: black(240, 205, 11);
+  font-weight: 1000;
 }
 .home-img-1 {
-  border-radius: 0.6em;
-  height: 18em;
+  border-radius: 0.6rem;
+  height: 18rem;
   object-fit: contain;
-  margin: 0.8em;
+  margin: 0.8rem;
 }
 #homepageLogin {
   background-color: #e3397a;
@@ -454,25 +402,25 @@ noscript {
 }
 .homepage-figure--heading {
   color: white;
-  font-size: 3em;
+  font-size: 3rem;
   font-family: var(--header-font);
   text-align: center;
-  margin-bottom: 0.3em;
-  margin-top: 2em;
+  margin-bottom: 0.3rem;
+  margin-top: 2rem;
 }
 #homepage-intro-text {
-  margin: 2em;
+  margin: 2rem;
 }
 #homepageTop {
   width: 100%;
 }
 #homepage-title-main-content {
   font-family: var(--header-font);
-  font-size: 3em;
+  font-size: 3rem;
   font-weight: 800;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.05rem;
   text-align: center;
-  margin: 0.4em;
+  margin: 0.4rem;
 }
 #homeFeatured {
   background-color: #e3397a;
@@ -488,9 +436,9 @@ noscript {
   width: 200px;
 }
 #home-icon-button {
-  border: 0.1em solid black;
-  border-radius: 0.6em;
-  padding: 0.3em;
+  border: 0.1rem solid black;
+  border-radius: 0.6rem;
+  padding: 0.3rem;
   position: absolute;
     left: -10000px;
   height: 0px;
@@ -571,12 +519,12 @@ noscript {
 .home-pic-title  {
   background-color: black;
   border: 1px solid #ebc034;
-  border-radius: 0.4em;
+  border-radius: 0.4rem;
   color: white;
   position: absolute;
-    left: 3em;
-    top: 3em;
-  padding: 0.5em;
+    left: 3rem;
+    top: 3rem;
+  padding: 0.5rem;
   visibility: hidden;
 }
   .home-pic-div:hover .home-pic-title {
@@ -592,10 +540,10 @@ noscript {
   margin-left: 3vw;
 }
 .intro-text {
-  margin: 2em;
+  margin: 2rem;
 }
 .intro-text--subtext {
-  font-size: 1.2em;
+  font-size: 1.2rem;
 }
 .imagesRight {
   float: right;
@@ -608,31 +556,31 @@ noscript {
 .indent {
   color: blue;
   overflow-wrap: break-word;
-  text-indent: 1em;
+  text-indent: 1rem;
 }
 #largeLetterMissionStatement {
-  font-size: 2em;
+  font-size: 2rem;
 }
 .links-i-like-description-paragraphs {
-  font-size: 1.6em;
+  font-size: 1.6rem;
 }
 .links-i-like-divs {
-  margin-bottom: 5em;
+  margin-bottom: 5rem;
 
   word-wrap: break-word;
 }
   .links-i-like-divs:first-of-type {
-    margin-top: 3em;
+    margin-top: 3rem;
   }
 .links-i-like-h2 {
   color: #02ffe9;
   text-align: center;
-  font-size: 1.6em;
+  font-size: 1.6rem;
 }
 #links-i-like-intro-text-div {
-  font-size: 1.4em;
-  padding-left: 2em;
-  margin-bottom: 3em;
+  font-size: 1.4rem;
+  padding-left: 2rem;
+  margin-bottom: 3rem;
   text-align: center;
 }
 .links-i-like-text {
@@ -656,15 +604,15 @@ noscript {
   margin-top: 5px;
 }
 .lit-articles-lit-gallery {
-  margin: 0.5em;
-  padding: 1em;
+  margin: 0.5rem;
+  padding: 1rem;
 }
 .lit-title {
   margin-bottom: 5px;
 }
 #lit-article-1 {
   width: 200px;
-    height: 10em;
+    height: 10rem;
   background-color: #aef07f;
   border-radius: var(--article-border-radius);
 }
@@ -709,11 +657,11 @@ noscript {
   margin: auto;  width: 80%;
 }
 .margin-bottom-2em {
-  margin-bottom: 2em;
+  margin-bottom: 2rem;
 }
 #main-content {
   margin-left: var(--sidebar-width);
-  padding: 0.2em;
+  padding: 0.2rem;
 }
 #main-content-featured {
   margin-top: var(--navbar-height);
@@ -723,12 +671,12 @@ noscript {
     flex-wrap: wrap;
   margin-top: var(--navbar-height);
   margin-left: var(--sidebar-width);
-  padding: 0.2em;
+  padding: 0.2rem;
 }
 .merchant-reminder {
   color: #00ffca;
   font-size: 1.4rem;
-  margin: auto auto 1em;
+  margin: auto auto 1rem;
   width: 50vw;
 }
 .missionStatementHomepage {
@@ -755,13 +703,13 @@ noscript {
 }
 #mobile-navigation-error-message-div {
   background-color: #e3397a;
-  border-radius: 1em;
-  font-size: 1.3em;
+  border-radius: 1rem;
+  font-size: 1.3rem;
   height: auto;
     width: auto;
   margin: 40vh 20vw;
   overflow: auto;
-  padding: 2em;
+  padding: 2rem;
   position: static;
     left: auto;
 }
@@ -777,8 +725,8 @@ noscript {
   z-index: 2;
 }
 #mobile-navigation-title {
-  padding: 0.5em;
-  font-size: 1.3em;
+  padding: 0.5rem;
+  font-size: 1.3rem;
 };
 #navbar-2 {
   background-color: var(--sidebar-background-color); 
@@ -837,7 +785,7 @@ noscript {
   display: table;
 }
 #navbar-hamburger {
-  border: 0.1em solid black;
+  border: 0.1rem solid black;
   border-radius: 10px;
   height: 0px;
     width: 0px;
@@ -855,9 +803,9 @@ noscript {
     width: 35px;
 }
 .omarshishani-link {
-  font-size: 1.5em;
+  font-size: 1.5rem;
   overflow-wrap: break-word;
-  text-indent: 5em;
+  text-indent: 5rem;
 }
   .omarshishani-link a {
     color: white;
@@ -867,7 +815,7 @@ noscript {
 }
 #paypal-cannelle {
   display: block;
-  width: 10em;
+  width: 10rem;
   margin: auto;
 }
 #paypal-donate-button{
@@ -875,7 +823,7 @@ noscript {
   margin: auto;
 }
 .paypal-donate-div {
-  margin: 1em auto 0em;
+  margin: 1rem auto 0rem;
   width: 500px;
   max-width: 100%;
 }
@@ -885,12 +833,12 @@ noscript {
   .paypal-donate-div input {
     display: block;
     margin: auto;
-    margin-top: 0.5em;
+    margin-top: 0.5rem;
   }
   .paypal-donate-div td {
     display: block;
     color: white;
-    margin-bottom: 1em;
+    margin-bottom: 1rem;
     text-align: center;
   }
 .paypal-form__header {
@@ -920,12 +868,12 @@ noscript {
 }
 .proverb-divs {
   color: white;
-  margin-bottom: 1.5em;
+  margin-bottom: 1.5rem;
   margin-left: 5vw;
   margin-right: 5vw;
 }
 #proverb-div-main {
-  font-size: 1.6em;
+  font-size: 1.6rem;
   max-width: 100%;
   margin-left: 0;
   margin-right: 0;
@@ -945,10 +893,6 @@ noscript {
 .rowdyArtDotComTextMissionStatement {
   margin: 20px 0 0 0;
 }
-#rowdy-artforms{
-  margin: 1em 0 0 0.8em;
-  font-size: 1.7em;
-}
 .secured {
   right: 0;
 }
@@ -960,7 +904,7 @@ noscript {
   width: 20rem;
 }
 #self-portrait-figure figcaption {
-  margin-top: 2em;
+  margin-top: 2rem;
   font-family: var(--header-font);
   font-weight: bold;
   text-align: center;
@@ -978,19 +922,19 @@ noscript {
   z-index: 100;
 }
 #sidebar-links a:first-of-type {
-  padding-top: 1.5em;
-  padding: 0.5em 0.4em;
+  padding-top: 1.5rem;
+  padding: 0.5rem 0.4rem;
 }
 #sidebar-links a {
   align-items: center;
   background-color: var(--sidebar-links-background-color);
   border: 3px solid #ebc034;
-  border-radius: 0.6em;
+  border-radius: 1rem;
   color: var(--sidebar-links-color);
   display: block;
-  font-size: 1.7em;
-  padding: 0.4em;
-  margin: 1em 0.5em 0 0.5em;
+  font-size: 1.7rem;
+  padding: 0.6rem;
+  margin: 1.2rem 0.5rem 0 0.5rem;
   text-align: center;
   text-decoration: none;
 }
@@ -1044,26 +988,26 @@ noscript {
 }
 .text-short-info {
   color: white; 
-  font-size: 1.5em;
+  font-size: 1.5rem;
   overflow-wrap: break-word;
-  text-indent: 2em;
+  text-indent: 2rem;
 }
 .text-small {
-  font-size: 0.9em;
+  font-size: 0.9rem;
 }
 #thanks-people {
   background-color: #671e7c;
   border: var(--gold-border);
-  border-radius: 1em;
+  border-radius: 1rem;
   column-count: 2;
-  padding: 1em 2em;
+  padding: 1rem 2rem;
 }
 #thanks-honey-neal-h3 {
   color: var(--gold-border-color);
-  margin-bottom: 10em;
+  margin-bottom: 10rem;
 }
 #title-1 {
-  font-size: 2em;
+  font-size: 2rem;
   text-align: center;
 }
 .underlined {
@@ -1109,13 +1053,13 @@ noscript {
   }
 #video-full-h3 {
   text-align: center;
-  font-size: 1.6em;
+  font-size: 1.6rem;
 }
 #video-full-purchase-complete-div {
-  padding: 1em 13vw 2em 13vw;
+  padding: 1rem 13vw 2rem 13vw;
 }
 .welcome-font {
-  font-size: 1.5em;
+  font-size: 1.5rem;
 }
 .welcomeText {
   border: 0px solid #ebc034;
@@ -1143,7 +1087,7 @@ noscript {
 @media (max-width: 1100px) {
   .container-1{
     width: 50vw;
-    padding: 1em;
+    padding: 1rem;
   }
   .container-2 {
     width: 50vw;
@@ -1152,7 +1096,8 @@ noscript {
     width: 50%; 
   }
   .container-3--paragraph-text {
-    width: calc(100% - 4em);
+    padding: 1rem;
+    width: calc(100% - 4rem);
   }
   .container-3--welcome-end {
     padding: 3rem;
@@ -1182,12 +1127,8 @@ noscript {
   }
   #footer {
     background-color: var(--sidebar-background-color); 
-    display: flex;
-      align-items: center;
-      justify-content: space-between;
     height: var(--footer-height);
     margin-left: auto;
-    padding-left: 0;
     position: static;
       bottom: 0;
     z-index: 101;
@@ -1198,7 +1139,7 @@ noscript {
   #home-icon-button {
       align-self: center;
     height: auto;
-      width: 2em; 
+      width: 2rem; 
     position: static;
       left: auto;
   }
@@ -1215,25 +1156,25 @@ noscript {
       left: auto;
     height: auto;
       width: auto;
-    margin-right: 0.8em;
+    margin-right: 0.8rem;
   }  
   .home-img-1 {
     display: block;
     height: auto;
-    margin: 0 0 1.5em 0;
+    margin: 0 0 1.5rem 0;
     object-fit: contain;
     width: 100vw;
   }
   #main-content {
     margin-left: auto;
-    padding: 0.2em;
+    padding: 0.2rem;
   }
   #main-content-lit {
     display: flex; 
       flex-wrap: wrap;
     margin-top: var(--navbar-height);
     margin-left: 0;
-    padding: 0.2em;
+    padding: 0.2rem;
   }
   #mobile-navigation-error-message-div {
     position: absolute;
@@ -1333,17 +1274,20 @@ noscript {
     width: 100%;
   }
   .welcome-team-inner-div {
-    padding: 1.5em 2.5em;
+    padding: 1.5rem 2.5rem;
   }
 }
 @media (max-width: 500px) {
   .container-3 {
-    font-size: 0.8em;
+    font-size: 0.8rem;
+  }
+  .footer__contact-block-wrap {
+    display: block;
   }
 }
 @media (max-width: 400px) {
   .container-3--homepage-contact {
-    font-size: 0.8em;    
+    font-size: 0.8rem;    
   }
   #sidebar-2 {
     position: absolute;
