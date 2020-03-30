@@ -91,6 +91,9 @@ bodyConst.insertAdjacentHTML('afterend', String.raw`
 	<a href="thanks.html">
 		Thanks
 	</a>
+	<a href="questions.html">
+		Questions and Answers
+	</a>
 </nav> <!-- <nav id="navbar-3"> -->
 </div> <!-- <div id="mobile-navigation-main-content"> -->
 `);

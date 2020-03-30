@@ -215,9 +215,19 @@ noscript {
   padding: 1rem 2rem;
 }
 .container-4__subcontainer-1 {
-  border: 2px solid white;
-  border-radius: 5px;
+  border: 2px solid #ebc034;
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
   padding: 0 0.5em;
+}
+.container-4-wrap {
+  font-size: 1.6rem;
+  max-width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+  margin: auto;
+  width: 80vw;
 }
 .create-account {
   color: black;
@@ -1131,6 +1141,9 @@ noscript {
     padding: 1rem;
     width: 80%;
   }
+  .container-4 {
+    column-count: 1;
+  }
 }
 @media (max-width: 700px) {
   .based-on-true-story-description {
@@ -1147,6 +1160,9 @@ noscript {
   }
   .container-3--paragraph-text {
     width: 80%;
+  }
+  .container-4-wrap {
+    margin: auto 10vw;
   }
   #footer {
     background-color: var(--sidebar-background-color); 
@@ -1303,6 +1319,13 @@ noscript {
 @media (max-width: 500px) {
   .container-3 {
     font-size: 0.8rem;
+  }
+  .container-4 {
+    padding: 0 1rem;
+  }
+  .container-4-wrap {
+    width: 95%;
+    margin: auto;
   }
   .footer__contact-block-wrap {
     display: block;
