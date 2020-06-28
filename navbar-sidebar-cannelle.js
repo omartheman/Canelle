@@ -7,9 +7,6 @@ const strNavSideBar = String.raw`
 		<a href="index.html">
 			Welcome & Contact
 		</a>
-		<a href="reading-video.html">
-			Reading Video
-		</a>
 		<a href="ebook-donate.html">
 			eBook
 		</a>
@@ -75,9 +72,6 @@ bodyConst.insertAdjacentHTML('afterend', String.raw`
 <nav id="navbar-mobile">
 	<a href="index.html">
 		Welcome & Contact
-	</a>
-	<a href="reading-video.html">
-		Reading Video
 	</a>
 	<a href="ebook-donate.html">
 		eBook
