@@ -288,6 +288,12 @@ noscript {
   margin-bottom: 2rem;
   text-align: center;
 }
+.ebook-heading--subheading--left {
+  text-align: left;
+}
+.ebook-heading--subheading--highlight {
+  color: rgb(140, 255, 244);
+}
 .ebook-h2-download {
   text-align: center;
   color: #211f76;
@@ -930,6 +936,10 @@ noscript {
   margin: auto;
   max-width: 95%;
   width: 20rem;
+}
+.self-portrait--img--lessons {
+  display: inline-block;
+  width: 10rem;
 }
 #self-portrait-figure figcaption {
   margin-top: 2rem;

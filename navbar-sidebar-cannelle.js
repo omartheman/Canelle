@@ -10,6 +10,9 @@ const strNavSideBar = String.raw`
 		<a href="ebook-donate.html">
 			eBook
 		</a>
+		<a href="lessons.html">
+			French Lessons
+		</a>
 		<a href="proverbs.html">
 			French Proverbs
 		</a>
@@ -75,6 +78,9 @@ bodyConst.insertAdjacentHTML('afterend', String.raw`
 	</a>
 	<a href="ebook-donate.html">
 		eBook
+	</a>
+	<a href="lessons.html">
+		French Lessons
 	</a>
 	<a href="proverbs.html">
 		French Proverbs
