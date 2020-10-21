@@ -1289,7 +1289,7 @@ noscript {
       display: flex;
         justify-content: center;
       font-size: 1.7rem;
-      padding: 1rem;
+      padding: 0.8rem 0 0.6rem;
     }
     #navbar-mobile a:first-of-type {
       border-top: 3px solid #ebc034;
