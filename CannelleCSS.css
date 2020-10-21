@@ -282,6 +282,18 @@ noscript {
   font-size: 2rem;
   text-align: center;
 }
+.ebook-heading--lessons-price {
+  background-color: var(--sidebar-links-background-color);
+  border: 3px solid #ebc034;
+  border-radius: 1rem;
+  color: var(--sidebar-links-color);
+  display: block;
+  font-size: 1.7rem;
+  padding: 0.6rem;
+  margin: 1.2rem 0.5rem 0 0.5rem;
+  text-align: center;
+  text-decoration: none;
+}
 .ebook-heading--subheading {
   color: white;
   font-family: 'Josefin Sans', sans-serif;
@@ -970,7 +982,7 @@ noscript {
   border-radius: 1rem;
   color: var(--sidebar-links-color);
   display: block;
-  font-size: 1.7rem;
+  font-size: 25px;
   padding: 0.6rem;
   margin: 1.2rem 0.5rem 0 0.5rem;
   text-align: center;
