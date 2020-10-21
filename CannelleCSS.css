@@ -958,6 +958,15 @@ select {
 .rowdyArtDotComTextMissionStatement {
   margin: 20px 0 0 0;
 }
+.subtitle-container {
+  margin-bottom: 20px !important;
+}
+@media (max-width: 700px) {
+  .subtitle-container {
+    font-size: 25px;
+    margin: 0 10px;
+  }
+}
 .secured {
   right: 0;
 }
@@ -1219,6 +1228,7 @@ select {
     }
   #homepage-title-main-content {
     margin-top: 50px !important;
+    margin-bottom: 20px !important;
   }
   #home-icon-button {
       align-self: center;
