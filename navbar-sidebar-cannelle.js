@@ -95,7 +95,7 @@ bodyConst.insertAdjacentHTML('afterend', String.raw`
 		Thanks
 	</a>
 	<a href="questions.html">
-		Questions and Answers
+		Questions
 	</a>
 	<a href="where-to-buy.html">
 		Where to Buy the Book
