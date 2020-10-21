@@ -70,9 +70,10 @@ for (let i = 0; i < sidebarLinksObj.length; i++) {
 
 $('#navbar-hamburger').on('click', function(){
 	$('#mobile-navigation-main-content').slideToggle();
+	$('#navbar-hamburger').toggleClass('navbar-hamburger-opaque');
 });
 
-bodyConst.insertAdjacentHTML('afterend', String.raw`
+bodyConst.insertAdjacentHTML('beforeend', String.raw`
 
 <div id="mobile-navigation-main-content">
 <nav id="navbar-mobile">

@@ -20,6 +20,9 @@ img, embed, object, video {
   --header-font: 'Roboto Slab', 'Cinzel', serif;
   font-size: 16px;
 }
+a {
+  color: white;
+}
 audio {
   width: 200px;
 }
@@ -73,6 +76,12 @@ noscript {
   position: fixed;
   text-align: center;
   width: 100%;
+}
+table, tbody, select {
+  max-width: 100% !important; 
+}
+select {
+  width: 90%;
 }
 .based-on-true-story-description {
   background-color: #f8fcff;
@@ -831,6 +840,9 @@ noscript {
 #navbar_left {
   display: table;
 }
+.navbar-hamburger-opaque {
+  opacity: 60%;
+}
 #navbar-hamburger {
   border: 0.1rem solid black;
   border-radius: 10px;
@@ -1205,6 +1217,9 @@ noscript {
     #footer span {
       margin: auto;
     }
+  #homepage-title-main-content {
+    margin-top: 50px !important;
+  }
   #home-icon-button {
       align-self: center;
     height: auto;
@@ -1233,6 +1248,11 @@ noscript {
     margin: 0 0 1.5rem 0;
     object-fit: contain;
     width: 100vw;
+  }
+  .lessons-img-container  {
+    display: flex; 
+    justify-content: center;
+    margin-bottom: 10px;
   }
   #main-content {
     margin-left: auto;

@@ -5,8 +5,10 @@
   width: 80%;
 }
 .container-1 {
-  padding: 0;
-  width: 90%;
+  padding: 10px;
+  width: calc(100% - 20px );
+  word-break: break-word;
+  border: 0px solid black;
 }
 .container-2 {
   width: 65%;
