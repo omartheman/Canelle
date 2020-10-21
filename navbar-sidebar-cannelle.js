@@ -98,7 +98,7 @@ bodyConst.insertAdjacentHTML('afterend', String.raw`
 		Questions
 	</a>
 	<a href="where-to-buy.html">
-		Where to Buy Book
+		Where to Buy the Book
 	</a>
 </nav> <!-- <nav id="navbar-3"> -->
 </div> <!-- <div id="mobile-navigation-main-content"> -->
