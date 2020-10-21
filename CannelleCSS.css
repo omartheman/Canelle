@@ -14,7 +14,7 @@ img, embed, object, video {
   --site-background-color: #5422d4;
   --sidebar-background-color: #801C9B;
   --sidebar-background-color-2: #c153e0;
-  --sidebar-links-color: #5ce4ff;
+  --sidebar-links-color: #a9f2ff;
   --sidebar-links-background-color: #3D199A;
   --image-border-color: #ebc034;
   --header-font: 'Roboto Slab', 'Cinzel', serif;
@@ -982,9 +982,9 @@ noscript {
   border-radius: 1rem;
   color: var(--sidebar-links-color);
   display: block;
-  font-size: 25px;
-  padding: 0.6rem;
-  margin: 1.2rem 0.5rem 0 0.5rem;
+  font-size: 22px;
+  padding: 0.5rem;
+  margin: 0.5rem 0.5rem 0 0.5rem;
   text-align: center;
   text-decoration: none;
 }
