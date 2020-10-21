@@ -25,6 +25,9 @@ const strNavSideBar = String.raw`
 		<a href="questions.html">
 			Questions & Answers
 		</a>
+		<a href="where-to-buy.html">
+			Where to Buy the Book
+		</a>
 	</div> <!-- <div id="sidebarLinks"> -->		
 </div> <!-- <div id="sidebar-2"> -->
 `;
@@ -93,6 +96,9 @@ bodyConst.insertAdjacentHTML('afterend', String.raw`
 	</a>
 	<a href="questions.html">
 		Questions and Answers
+	</a>
+	<a href="where-to-buy.html">
+		Where to Buy the Book
 	</a>
 </nav> <!-- <nav id="navbar-3"> -->
 </div> <!-- <div id="mobile-navigation-main-content"> -->

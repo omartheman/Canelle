@@ -455,7 +455,8 @@ noscript {
   width: 100%;
 }
 #homepage-title-main-content {
-  font-family: var(--header-font);
+  color: white;
+  font-family: var(--header-font), sans-serif;
   font-size: 3rem;
   font-weight: 800;
   letter-spacing: 0.05rem;
@@ -1062,6 +1063,7 @@ noscript {
   margin-bottom: 10rem;
 }
 #title-1 {
+  color: white;
   font-size: 2rem;
   text-align: center;
 }
