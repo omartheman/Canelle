@@ -46,14 +46,15 @@ div {
 h1 {
   text-align: left;
   font-size: 2rem;
-  color: #ebc034;
+  color:  #ffe30d;
   font-family: 'Righteous', cursive;
   margin: 0px;
 }
 h2 {
   font-size: 14pt;
-  color: #d4bb0c;
+  color: #ffe30d;
   font-family: 'Josefin Sans', sans-serif; 
+  margin-bottom: 20px;
 }
 h2 + iframe {
   margin-top: 10px;
@@ -421,6 +422,14 @@ select {
 .h3-title {
   font-size: 1.6rem;
 }
+.heading {
+  margin-bottom: 60px !important;
+}
+.heading-med {
+  color: #ebc034;
+  text-align: center;
+  font-size: 1.6rem;
+}
 .heading--coming-soon {
   color: #ffe40d;
   text-align: center; 
@@ -714,6 +723,9 @@ select {
 }
 .margin-bottom-2em {
   margin-bottom: 2rem;
+}
+.mb-5 {
+  margin-bottom: 80px;
 }
 #main-content {
   margin-left: var(--sidebar-width);
